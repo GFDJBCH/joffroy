@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joffroy</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css">
+    <link rel="stylesheet" href="assets/plugins/global/plugins.bundle.css">
+    <link rel="stylesheet" href="assets/css/style.bundle.css">
+    <link rel="stylesheet" href="assets/css/joffory.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.8.162/web/pdf_viewer.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/media/icono.svg">
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.8.162/build/pdf.min.js"></script>
+</head>
+<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+
+<div class="d-flex flex-column flex-root">
+    <div class="page d-flex flex-row flex-column-fluid">
+        <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+            <div id="kt_header" style="" class="header align-items-stretch bg-blue">
+                <div class="container-fluid d-flex align-items-stretch justify-content-between">
+                    <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+                        <img alt="Logo" src="assets/media/logos/logo.svg" class="h-30px figure-img m-0 p-1 d-none d-sm-inline">
+                        <h5 class="m-0 text-white" data-lang="page_header">Bienvenido a tu espacio</h5>
+                    </div>
+                    <div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+                        <div class="d-flex align-items-stretch" id="kt_header_nav">
+                            <div class="header-menu align-items-stretch" data-kt-drawer="true"
+                                 data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}"
+                                 data-kt-drawer-overlay="true"
+                                 data-kt-drawer-width="{default:'200px', '300px': '250px'}"
+                                 data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle"
+                                 data-kt-swapper="true" data-kt-swapper-mode="prepend"
+                                 data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}">
+                                <div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-400 fw-bold my-5 my-lg-0 align-items-stretch"
+                                     id="#kt_header_menu" data-kt-menu="true">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-stretch flex-shrink-0">
+                            <div class="d-none align-items-stretch flex-shrink-0">
+                                <div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+                                    <div class="cursor-pointer symbol symbol-30px symbol-md-40px d-flex"
+                                         data-kt-menu-trigger="click" data-kt-menu-attach="parent"
+                                         data-kt-menu-placement="bottom-end">
+                                        <div class="me-2 text-white d-flex flex-column justify-content-center align-items-start">
+                                            <span id="spnNombreU" class="fw-bold"></span>
+                                            <span id="spnCorreoU" class="text-muted"></span>
+                                        </div>
+                                        <img src="assets/media/avatars/blank.png" alt="user"/>
+                                    </div>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px"
+                                         data-kt-menu="true">
+                                        <div class="menu-item">
+                                            <a href="sing-in.html" class="menu-link px-5" data-lang="option_logout">Log out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid d-flex flex-column flex-column-fluid" id="kt_content">
+                <div class="toolbar" id="kt_toolbar">
+                    <div id="kt_toolbar_container" class="container-fluid d-flex flex-stack">
+                        <div data-kt-swapper="true" data-kt-swapper-mode="prepend"
+                             data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}"
+                             class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+                            <h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1" data-lang="page_title"></h1>
+                        </div>
+                        <div class="d-flex align-items-center py-1">
+                            <div class="me-3 w-200px">
+                                <select id="sistema-lenguage" class="form-select form-select-sm">
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="w-200px bg-joffroy-primary form-control form-control-sm">
+                                <span class="svg-icon svg-icon-5 svg-icon-white me-1 mb-0">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                 fill="white" class="bi bi-calendar-event" viewBox="0 0 16 16">
+												<path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+												<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+											</svg>
+										</span>
+                                <span id="sistema-fecha" class="text-white m-0"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post d-flex flex-column-fluid pt-5" id="kt_post">
+                    <div id="kt_content_container" class="container">
+                        <div class="card mb-5">
+                            <div class="card-header">
+                                <h3 class="card-title fw-bolder m-0" data-lang="card_title_2">Información empresarial</h3>
+                            </div>
+                            <div class="card-body">
+                                <form id="socio-form" class="form" novalidate="novalidate" autocomplete="off">
+
+                                    <div class="alert alert-dismissible bg-light-info d-flex flex-column flex-sm-row">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+                                            <i class="bi bi-exclamation-triangle-fill text-dark fs-1"></i>
+                                      </span>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <h4 class="fw-bold m-0" data-lang="info_title"></h4>
+                                            <span data-lang="info_text"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="fv-row mb-8">
+                                                <label for="socio-pais" class="form-label fs-6 fw-bolder required"
+                                                       data-lang="socio_pais">Country</label>
+                                                <select id="socio-pais" class="form-select form-select-sm bg-light-warning">
+                                                    <option></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="fv-row mb-8">
+                                                <label for="socio-tipo" class="form-label fs-6 fw-bolder required"
+                                                       data-lang="socio_tipo">Supplier type</label>
+                                                <select id="socio-tipo" class="form-select form-select-sm bg-light-warning">
+                                                    <option></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="fv-row mb-8" id="socio-archivo-seccion" style="display: none;">
+                                                <label for="socio-archivo" class="form-label fs-6 fw-bolder"
+                                                       data-lang="socio_archivo">File Attachment</label>
+                                                <input id="socio-archivo" class="form-control form-control-sm bg-light-warning"
+                                                       type="file"
+                                                       accept="application/pdf">
+                                                <p class="text-primary small m-0" id="socio-archivo-mensaje"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="socio-razon-social-seccion" class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_1">Business name</label>
+                                        <div class="col-lg-8">
+                                            <div id="socio-nombre-seccion" class="row mb-3">
+                                                <div class="col-lg-6 fv-row">
+                                                    <input id="socio-nombre" name="socio-nombre" type="text" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-6 fv-row">
+                                                    <input id="socio-apellidos" name="socio-apellidos" type="text" class="form-control form-control-sm">
+                                                </div>
+                                            </div>
+                                            <input id="socio-razon-social" name="socio-razon-social" type="text" class="form-control form-control-sm">
+                                        </div>
+                                    </div>
+                                    <div id="socio-regimen-seccion" class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_2">Capital regime</label>
+                                        <div class="col-lg-8 fv-row">
+                                            <input type="text" name="socio-regimen-capital" id="socio-regimen-capital" class="form-control form-control-sm">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6">
+                                            <span class="required" data-lang="socio_input_3">TaxID</span>/
+                                            <span data-lang="socio_input_4">Comercial name</span>
+                                        </label>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-3 fv-row">
+                                                    <input id="socio-rfc" name="socio-rfc" type="text" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-9 fv-row">
+                                                    <input type="text" name="socio-nombre-comercial" id="socio-nombre-comercial" class="form-control form-control-sm bg-light-warning">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_5">Email</label>
+                                        <div class="col-lg-8 fv-row">
+                                            <input type="email" id="socio-correo" name="socio-correo" class="form-control form-control-sm">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="socio_input_6">Phone number</label>
+                                        <div class="col-lg-8 fv-row">
+                                            <input type="tel" id="socio-telefono" name="socio-telefono"
+                                                   data-inputmask="'mask': '+ 99 (999) 999-9999'"
+                                                   class="form-control form-control-sm bg-light-warning">
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-dismissible bg-light-info d-flex flex-column flex-sm-row">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+                                          <i class="bi bi-geo-alt-fill text-dark fs-1"></i>
+                                      </span>
+                                        </div>
+                                        <div class="d-flex flex-column pe-0 pe-sm-10">
+                                            <h4 class="fw-bold mb-0" data-lang="sub_title_1">Address information</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_7">Street</label>
+                                        <div class="col-lg-8 fv-row">
+                                            <input type="text" id="socio-calle" name="socio-calle" class="form-control form-control-sm">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6">
+                                            <span data-lang="socio_input_8">Int. num.</span>/
+                                            <span class="required" data-lang="socio_input_9">Ext. num.</span>/
+                                            <span class="required" data-lang="socio_input_10">Zip code</span>
+                                        </label>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-interior" name="socio-interior" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-exterior" name="socio-exterior" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-postal" name="socio-postal" class="form-control form-control-sm">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_11">Neighborhood</label>
+                                        <div class="col-lg-8 fv-row">
+                                            <input type="text" id="socio-colonia" name="socio-colonia" class="form-control form-control-sm">
+                                        </div>
+                                    </div>
+
+                                    <div id="rw-ubicacion" class="row mb-6">
+                                        <label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="socio_input_12">Location</label>
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-ciudad" name="socio-ciudad" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-estado" name="socio-estado" class="form-control form-control-sm">
+                                                </div>
+                                                <div class="col-lg-4 fv-row">
+                                                    <input type="text" id="socio-pais-seleccionado" name="socio-pais-seleccionado" class="form-control form-control-sm">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer text-end">
+                              <button id="btn-socio-guardar" type="submit" class="btn btn-sm btn-joffroy-primary">
+                                <span class="indicator-label" data-lang="btn_submit">Save</span>
+                                <span class="indicator-progress">
+                                    Espere por favor... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                </span>
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+                <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <div class="text-dark order-2 order-md-1">
+                        <span class="text-muted fw-bold me-1">2023©</span>
+                        <a href="https://www.joffroy.com/" target="_blank" class="text-gray-800 text-hover-primary">Joffroy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" id="mdl-bienvenida">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-light-joffroy-primary pt-3 pb-2">
+                <img src="assets/media/joffroy/icono-c.svg" alt="Logo principal" class="img-fluid" width="60">
+                <img src="assets/media/logos/logo-dark.svg" alt="Logo principal" class="img-fluid" width="200">
+            </div>
+            <div class="modal-body p-0" style="height: 600px">
+                <div id="car-bienvenida" class="carousel carousel-dark slide h-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#car-bienvenida" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#car-bienvenida" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                            <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                                <div class="text-center container">
+                                    <h4 class="fw-normal fw-lighter" style="text-align: justify;" id="parrafo_1"></h4>
+                                    <img src="assets/media/joffroy/Grafico-toma-de-deciciones.png" class="img-fluid my-15 w-300px" alt="...">
+                                    <h4 class="fw-normal fw-lighter" style="text-align: justify;" id="parrafo_2"></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100" data-bs-interval="2000">
+                            <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                                <div class="text-center mb-10">
+                                    <img src="assets/media/joffroy/Grafico-conclusiones.png" class="img-fluid my-0 w-300px" alt="...">
+                                </div>
+                                <div class="text-center container">
+                                    <h4 class="fw-normal fw-lighter" style="text-align: justify;" id="parrafo_3"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#car-bienvenida" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#car-bienvenida" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-joffroy-primary" data-bs-dismiss="modal" id="btn_modal"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+    <span class="svg-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)"
+                          fill="black"/>
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z"
+                          fill="black"/>
+				</svg>
+			</span>
+</div>
+<script>var hostUrl = "assets/";</script>
+<script src="assets/plugins/global/plugins.bundle.js"></script>
+<script src="assets/js/scripts.bundle.js"></script>
+<script src="assets/js/traductor/bienvenida-translate.js"></script>
+<script src="assets/js/pages/socios-bienvenida.js"></script>
+</body>
+</html>

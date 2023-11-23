@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><base href="">
+		<title>Joffroy</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8">
+		<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+		<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
+		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+
+		<link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+
+		<!--end::Fonts-->
+		<!--begin::Page Vendor Stylesheets(used by this page)-->
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+
+        <link rel="shortcut icon" href="assets/media/icono.svg" />
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="assets/css/joffory.css">
+	</head>
+	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+		<div class="d-flex flex-column flex-root">
+			<div class="page d-flex flex-row flex-column-fluid">
+				<div id="kt_aside" class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside"
+					 data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
+					 data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
+					 data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
+						<a href="index.html">
+							<img alt="Logo" src="assets/media/logos/logo.svg" class="h-25px logo"/>
+						</a>
+						<div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle"
+							 data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
+							 data-kt-toggle-name="aside-minimize">
+                    <span class="svg-icon svg-icon-1 rotate-180">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+									 fill="none">
+									<path opacity="0.5"
+										  d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z"
+										  fill="black"/>
+									<path d="M8.2657 11.4343L12.45 7.25C12.8642 6.83579 12.8642 6.16421 12.45 5.75C12.0358 5.33579 11.3642 5.33579 10.95 5.75L5.40712 11.2929C5.01659 11.6834 5.01659 12.3166 5.40712 12.7071L10.95 18.25C11.3642 18.6642 12.0358 18.6642 12.45 18.25C12.8642 17.8358 12.8642 17.1642 12.45 16.75L8.2657 12.5657C7.95328 12.2533 7.95328 11.7467 8.2657 11.4343Z"
+										  fill="black"/>
+								</svg>
+							</span>
+						</div>
+					</div>
+					<div class="aside-menu flex-column-fluid">
+						<div class="hover-scroll-overlay-y" id="kt_aside_menu_wrapper" data-kt-scroll="true"
+							 data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto"
+							 data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer"
+							 data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="0">
+							<div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
+								 id="#kt_aside_menu" data-kt-menu="true">
+								<div class="menu-item">
+									<div class="menu-content pb-2">
+										<span class="menu-section text-white text-uppercase fs-8 ls-1" data-lang="menu_navigation"></span>
+									</div>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link active" href="proveedores.html">
+										<span class="menu-icon"><i class="fa-solid fa-building-user"></i></span>
+										<span class="menu-title" data-lang="menu_supplier"></span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link bg-hover-joffroy-primary" href="facturacion.html">
+										<span class="menu-icon"><i class="fa-solid fa-file-invoice-dollar"></i></span>
+										<span class="menu-title" data-lang="menu_invoices"></span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link bg-hover-joffroy-primary" href="documentacion.html">
+										<span class="menu-icon"><i class="fa-solid fa-file-arrow-up"></i></span>
+										<span class="menu-title" data-lang="menu_pending"></span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link bg-hover-joffroy-primary" href="documentos.html">
+										<span class="menu-icon"><i class="fa-solid fa-file-lines"></i></span>
+										<span class="menu-title" data-lang="menu_document"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+					<div id="kt_header" style="" class="header align-items-stretch bg-joffroy-primary">
+						<!--begin::Container-->
+						<div class="container-fluid d-flex align-items-stretch justify-content-between">
+							<div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+								<div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
+									 id="kt_aside_mobile_toggle">
+                            <span class="svg-icon svg-icon-2x mt-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											 viewBox="0 0 24 24" fill="none">
+											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
+												  fill="black"/>
+											<path opacity="0.3"
+												  d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z"
+												  fill="black"/>
+										</svg>
+									</span>
+								</div>
+							</div>
+							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+								<h5 class="m-0 text-white" data-lang="menu_main"></h5>
+							</div>
+							<!--begin::Wrapper-->
+							<div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+								<!--begin::Navbar-->
+								<div class="d-flex align-items-stretch" id="kt_header_nav">
+									<div class="header-menu align-items-stretch" data-kt-drawer="true"
+										 data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}"
+										 data-kt-drawer-overlay="true"
+										 data-kt-drawer-width="{default:'200px', '300px': '250px'}"
+										 data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle"
+										 data-kt-swapper="true" data-kt-swapper-mode="prepend"
+										 data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}">
+										<!--begin::Menu-->
+										<div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-400 fw-bold my-5 my-lg-0 align-items-stretch"
+											 id="#kt_header_menu" data-kt-menu="true">
+										</div>
+										<!--end::Menu-->
+									</div>
+								</div>
+								<!--end::Navbar-->
+								<!--begin::Topbar-->
+								<div class="d-flex align-items-stretch flex-shrink-0">
+									<!--begin::Toolbar wrapper-->
+									<div class="d-flex align-items-stretch flex-shrink-0">
+										<!--begin::User-->
+										<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+											<!--begin::Menu wrapper-->
+											<div class="cursor-pointer symbol symbol-30px symbol-md-40px d-flex" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+												<div class="me-2 text-white d-flex flex-column justify-content-center align-items-start">
+													<span id="spnNombreU" class="fw-bold"></span>
+													<span id="spnCorreoU" class="text-muted"></span>
+												</div>
+												<img src="assets/media/avatars/blank.png" alt="user"/>
+											</div>
+											<!--begin::Menu-->
+											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px"
+												 data-kt-menu="true">
+												<div class="menu-item px-5">
+													<a href="perfil.html" class="menu-link px-5" data-lang="option_profile"></a>
+												</div>
+												<div class="menu-item px-5">
+													<a href="sing-in.html" class="menu-link px-5" data-lang="option_logout"></a>
+												</div>
+											</div>
+											<!--end::Menu-->
+											<!--end::Menu wrapper-->
+										</div>
+									</div>
+									<!--end::Toolbar wrapper-->
+								</div>
+								<!--end::Topbar-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Container-->
+					</div>
+					<div class="container-fluid d-flex flex-column flex-column-fluid" id="kt_content">
+						<div class="toolbar" id="kt_toolbar">
+							<div id="kt_toolbar_container" class="container-fluid d-flex flex-stack">
+								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+									<!--begin::Title-->
+									<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">
+										<i class="bi bi-buildings me-2 fn-20px text-dark"></i>
+										<span data-lang="page_title"></span>
+									</h1>
+									<!--end::Title-->
+								</div>
+								<div class="d-flex align-items-center py-1">
+									<div class="me-3 w-200px">
+										<select id="sistema-lenguage" class="form-select form-select-sm">
+											<option></option>
+										</select>
+									</div>
+									<div class="w-200px bg-joffroy-primary form-control form-control-sm">
+									<span class="svg-icon svg-icon-5 svg-icon-white me-1 mb-0">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													 fill="white" class="bi bi-calendar-event" viewBox="0 0 16 16">
+													<path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+													<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+												</svg>
+											</span>
+										<span id="sistema-fecha" class="text-white m-0"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="post d-flex flex-column-fluid pt-5" id="kt_post">
+							<div id="kt_content_container" class="container-fluid">
+								<div class="card mb-5 mb-xl-10">
+									<div class="card-body pt-9 pb-0" id="blockSection">
+										<div class="row">
+											<div class="col-sm-12 col-md-2 d-flex justify-content-center align-items-center">
+												<div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
+													<img src="assets/media/joffroy/edificio-de-oficinas.png" alt="image">
+												</div>
+											</div>
+											<div class="col-sm-12 col-md-10">
+												<div class="row">
+													<div class="col-sm-12 col-md-12">
+														<h1 class="mb-0 text-uppercase fw-bolder text-joffroy-primary" id="lbl_nombre_proveedor"></h1>
+														<p class="mb-0 text-uppercase text-muted" id="lbl_nombre_fiscal"></p>
+														<p id="lbl_proveedor_direccion"></p>
+														<div class="row">
+															<div class="col-sm-12 col-md-3">
+																<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
+																	<div class="d-flex align-items-center">
+																		<p class="m-0 fs-4 text-joffroy-primary fw-bolder" id="lbl_fecha_registro"></p>
+																	</div>
+																	<div class="fs-6" data-lang="info_registration_date"></div>
+																</div>
+															</div>
+															<div class="col-sm-12 col-md-6 d-flex justify-content-between align-items-center">
+																<button type="button" class="btn btn-sm btn-joffroy-primary w-100 me-2" id="btn-redirect-info">
+																	<span class="indicator-label" data-lang="info_btn_info"></span>
+																</button>
+
+																<button type="button" class="btn btn-sm btn-joffroy-warning w-100 me-2" id="btn-redirect-documents">
+																	<span class="indicator-label" data-lang="info_btn_documentation"></span>
+																</button>
+
+																<button type="button" class="btn btn-sm btn-joffroy-warning w-100" id="btn-redirect-bill">
+																	<span class="indicator-label" data-lang="info_btn_facturas"></span>
+																</button>
+															</div>
+															<div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
+																<div>
+																	<label for="proveedor-progress" class="mb-2" data-lang="info_progress"></label>
+																	<div class="progress w-100">
+																		<div id="proveedor-progress"
+																			 class="progress-bar bg-joffroy-primary progress-bar-striped progress-bar-animated"
+																			 role="progressbar" style="width: 0%;"
+																			 aria-valuenow="0" aria-valuemin="0"
+																			 aria-valuemax="100">0%
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header card-header-stretch">
+										<ul class="nav nav-tabs nav-line-tabs nav-stretch fs-6 border-0">
+											<li class="nav-item">
+												<a class="text-dark nav-link active" data-bs-toggle="tab" href="#kt_tab_pane_7">
+													<i class="bi bi-info-circle-fill text-dark fs-5 me-2"></i>
+													<span data-lang="tab_1"></span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="text-dark nav-link" data-bs-toggle="tab" href="#kt_tab_pane_8">
+													<i class="bi bi-person-check-fill text-dark fs-5 me-2"></i>
+													<span data-lang="tab_2"></span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="text-dark nav-link" data-bs-toggle="tab" href="#kt_tab_pane_9">
+													<i class="bi bi-check2-square text-dark fs-5 me-2"></i>
+													<span data-lang="tab_3"></span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="card-body">
+										<div class="tab-content" id="myTabContent">
+											<div class="tab-pane fade show active" id="kt_tab_pane_7" role="tabpanel">
+												<div class="card mb-5 mb-xl-10" id="blockSectionInfo">
+													<div class="form fv-plugins-bootstrap5 fv-plugins-framework">
+														<div class="card-body border-top p-9">
+															<div id="rw-razonsocial" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6">
+																	<span data-lang="lbl_1"></span>(<span id="spn-tipo">-</span>)<span class="text-danger">*</span></label>
+																<div class="col-lg-8">
+																	<div id="cmp-p-fisica" class="row">
+																		<div class="col-lg-6 fv-row fv-plugins-icon-container">
+																			<input id="inp-rz-nombre" type="text" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Enter the name" value="">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																		<div class="col-lg-6 fv-row fv-plugins-icon-container">
+																			<input id="inp-rz-apellido" type="text" class="form-control form-control-lg form-control-solid" placeholder="Enter last names" value="">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																	</div>
+																	<input id="inp-razonsocial" type="text" name="company" class="form-control form-control-lg form-control-solid" placeholder="Enter the business name" value="">
+																</div>
+															</div>
+															<div id="rw-regimencapital" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_2"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="text" name="company" id="regimen_cpt" class="form-control form-control-lg form-control-solid" value="">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+															<div id="rw-comercial" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_3"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="text" name="company" id="comercial_name" class="form-control form-control-lg form-control-solid">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+
+															<div id="rw-correo" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_4"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="email" id="email" name="company" class="form-control form-control-lg form-control-solid">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+															<div id="rw-telefono" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_5"></span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="tel" id="telefono" name="company"  class="form-control form-control-lg form-control-solid" data-inputmask="'mask': '+ 99 (999) 999-9999'" placeholder="Enter the phone number" value="">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+															<div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-10">
+																<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+														<i class="bi bi-geo-alt-fill text-dark" style="font-size: 25px;"></i>
+													</span>
+
+																<div class="d-flex flex-column pe-0 pe-sm-10">
+																	<h4 class="fw-bold mb-0 mt-1"><span data-lang="lbl_6"></span></h4>
+																</div>
+															</div>
+															<div id="rw-calle" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_7"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="text" id="calle" name="company" class="form-control form-control-lg form-control-solid" placeholder="Enter the street name" value="">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+															<div id="rw-nointext" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6">
+																	<span data-lang="lbl_8"></span>/
+																	<span data-lang="lbl_9" class="required"></span>/
+																	<span data-lang="lbl_10" class="required"></span>
+																</label>
+																<div class="col-lg-8">
+																	<div class="row">
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<input type="text" id="numero_int" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<input type="text" id="numero_ext" name="lname" class="form-control form-control-lg form-control-solid">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<input type="text" id="zip_code" name="company" class="form-control form-control-lg form-control-solid">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																	</div>
+																</div>
+															</div>
+															<div id="rw-colinia" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_11"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="text" id="colonia" name="company" class="form-control form-control-lg form-control-solid" placeholder="Enter the name of the colony" value="">
+																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															</div>
+															<div id="rw-ubicacion" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_12"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8">
+																	<div class="row">
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<select id="slc-country-02" class="form-select form-select-solid" data-control="select2" data-placeholder="Select the corresponding country" data-allow-clear="true">
+																				<option></option>
+																				<option value="1">MEX - MEXICO (ESTADOS UNIDOS MEXICANOS)</option>
+																				<option value="2">ABW - ARUBA (TERRITORIO HOLANDES DE ULTRAMAR)</option>
+																				<option value="3">AFG - AFGANISTAN (EMIRATO ISLAMICO DE)</option>
+																				<option value="4">AGO - ANGOLA (REPUBLICA DE)</option>
+																				<option value="5">AIA - ANGUILA</option>
+																				<option value="6">ALB - ALBANIA (REPUBLICA DE)</option>
+																				<option value="7">AND - ANDORRA (PRINCIPADO DE)</option>
+																				<option value="8">ANT - ANTILLAS NEERLANDESAS (TERRITORIO HOLANDES DE ULTRAMAR)</option>
+																				<option value="9">ARE - EMIRATOS ARABES UNIDOS</option>
+																				<option value="0">ARG - ARGENTINA (REPUBLICA)</option>
+																				<option value="10">ARM - ARMENIA (REPUBLICA DE)</option>
+																				<option value="11">EUA - ESTADOS UNIDOS AMERICANOS</option>
+																			</select>
+																		</div>
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<input type="text" id="estado" name="lname" class="form-control form-control-lg form-control-solid" placeholder="Enter the state" value="">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																		<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																			<input type="text" id="ciudad" name="lname" class="form-control form-control-lg form-control-solid" placeholder="Enter the city" value="">
+																			<div class="fv-plugins-message-container invalid-feedback"></div></div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-10">
+																<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+														<i class="bi bi-file-earmark-text-fill text-dark" style="font-size: 25px;"></i>
+													</span>
+
+																<div class="d-flex flex-column pe-0 pe-sm-10">
+																	<h4 class="fw-bold mb-0 mt-1"><span data-lang="lbl_13">Tax information</span></h4>
+																</div>
+															</div>
+
+															<div id="rw-tipproveedor" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_14"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<select id="slc-typprovider-02" class="form-select form-select-solid" data-control="select2" data-placeholder="Select the type of provider" data-allow-clear="true" onchange="selectProvider02()">
+																		<option></option>
+																		<option value="1"><Traductor class="Physical_person_tr">Physical person</Traductor></option>
+																		<option value="2"><Traductor class="Moral_person_tr">Moral person</Traductor></option>
+																	</select>
+																</div>
+															</div>
+															<div id="rw-idefiscal" class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_15"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<input type="text" id="identificador_fsc" name="company" class="form-control form-control-lg form-control-solid" placeholder="Enter the tax ID" value="">
+																</div>
+															</div>
+															<div id="rw-girnegocio" class="d-none mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_16"></span><span class="text-danger">*</span></label>
+																<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																	<select class="form-select form-select-solid" id="linea_ngc" data-control="select2" data-placeholder="Select the line of business" data-allow-clear="true">
+																		<option></option>
+																		<option value="1">Almacén & distribución</option>
+																		<option value="2">Aduana MX</option>
+																		<option value="3">IT</option>
+																		<option value="4">Seguridad</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+														<div class="card-footer d-flex justify-content-end py-6 px-9">
+															<a onclick="actulizar()" class="btn btn-primary" data-lang="btn_submit"></a>
+														</div>
+														<input type="hidden"><div></div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="kt_tab_pane_8" role="tabpanel">
+												<div class="card mb-5 mb-xl-10">
+													<div class="form fv-plugins-bootstrap5 fv-plugins-framework">
+														<div class="card-body border-top p-9">
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_17"></span></label>
+																<div class="col-lg-8">
+																	<select  id="confianza" class="form-select form-select-solid" data-control="select2" data-placeholder="Confidence level" data-allow-clear="true">
+																		<option></option>
+																		<option value="1">Unreliable</option>
+																		<option value="2">Conditioned</option>
+																		<option value="3">Reliable</option>
+																		<option value="4">Disabled</option>
+																	</select>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_18"></span></label>
+																<div class="col-lg-8">
+																	<select  class="form-select form-select-solid" id="tipo_de_operacion" data-control="select2" data-placeholder="Operation type" data-allow-clear="true">
+																		<option></option>
+																		<option value="1">test</option>
+																	</select>
+																</div>
+															</div>
+															<div class="row mb-6 d-none">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_19"></span></label>
+																<div class="col-lg-8">
+																	<select  class="form-select form-select-solid" id="nacionalidad"data-control="select2" data-placeholder="Nationality" data-allow-clear="true">
+																		<option></option>
+																		<option value="1">test</option>
+																	</select>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_20"></span></label>
+																<div class="col-lg-8">
+																	<input type="number" min="1" name="company" id="dias_de_credito" class="form-control form-control-lg form-control-solid">
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_21"></span></label>
+																<div class="col-lg-8">
+																	<input type="number" step="0.1" name="company"
+																		   id="limite_de_credito"
+																		   class="form-control form-control-lg form-control-solid"
+																		   placeholder="Credit limit" value="">
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_22"></span></label>
+																<div class="col-lg-8">
+																	<select  class="form-select form-select-solid" id="sucursales" data-control="select2" data-placeholder="Branch offices"  data-allow-clear="true" multiple></select>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_23"></span></label>
+																<div class="col-lg-8">
+																	<select  class="form-select form-select-solid" data-control="select2" id="areas" data-allow-clear="true" multiple></select>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_24"></span></label>
+																<div class="col-lg-8">
+																	<textarea class="form-control form-control-lg form-control-solid" id="justificacion" placeholder="Justification" rows="3"></textarea>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6">ISO</label>
+																<div class="col-lg-8">
+																	<div class="form-check form-switch form-check-custom form-check-solid">
+																		<input class="form-check-input" id="iso" type="checkbox" value="1" />
+																		<label class="form-check-label" for="iso">
+
+																		</label>
+																	</div>
+																</div>
+															</div>
+															<div class="row mb-6">
+																<label class="col-lg-4 col-form-label fw-bold fs-6"><span data-lang="lbl_25"></span></label>
+																<div class="col-lg-8">
+																	<div class="form-check form-switch form-check-custom form-check-solid">
+																		<input class="form-check-input" id="seguridad" type="checkbox" value="1" />
+																		<label class="form-check-label" for="seguridad">
+
+																		</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card-footer d-flex justify-content-end py-6 px-9">
+															<a onclick="updateInfoProvedor()" class="btn btn-primary" data-lang="btn_submit"></a>
+														</div>
+														<input type="hidden"><div></div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="kt_tab_pane_9" role="tabpanel">
+												<div class="card mb-5 mb-xl-10">
+													<div id="blockSectionExtra" class="fv-plugins-bootstrap5 fv-plugins-framework">
+														<form id="frmExtraInfo" class="form">
+															<div class="card-body border-top p-9">
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_26"></label>
+																	<div class="col-lg-8 fv-plugins-icon-container">
+																		<div class="row fv-row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="radio" id="extra-info-actividad-si" value="1" name="extra-info-actividad">
+																				<label class="form-check-label" for="extra-info-actividad-si" data-lang="yes"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="radio" id="extra-info-actividad-no" value="2" name="extra-info-actividad">
+																				<label class="form-check-label" for="extra-info-actividad-no" data-lang="not"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_28"></label>
+																	<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="extra-info-industrial" name="extra-info-tipo" value="1">
+																				<label class="form-check-label" for="extra-info-industrial" data-lang="industrial_manufacturing"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="extra-info-comercio" name="extra-info-tipo" value="2">
+																				<label class="form-check-label" for="extra-info-comercio" data-lang="commerce"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="extra-info-Servicios" name="extra-info-tipo" value="3">
+																				<label class="form-check-label" for="extra-info-Servicios" data-lang="services"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_29"></label>
+																	<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-aeroespacial" name="check-info-sector" value="1">
+																				<label class="form-check-label" for="check-info-aeroespacial" data-lang="aerospace"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-alimentos" name="check-info-sector" value="2">
+																				<label class="form-check-label" for="check-info-alimentos" data-lang="food"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-comercio" name="check-info-sector" value="3">
+																				<label class="form-check-label" for="check-info-comercio" data-lang="commerce_distribution"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-ejecutivo" name="check-info-sector" value="4">
+																				<label class="form-check-label" for="check-info-ejecutivo" data-lang="executive_electronic"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-Energia" name="check-info-sector" value="5">
+																				<label class="form-check-label" for="check-info-Energia" data-lang="energy"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-mineria" name="check-info-sector" value="6">
+																				<label class="form-check-label" for="check-info-mineria" data-lang="mining"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-papel" name="check-info-sector" value="7">
+																				<label class="form-check-label" for="check-info-papel" data-lang="paper_cardboard">
+																				</label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-quimica" name="check-info-sector" value="8">
+																				<label class="form-check-label" for="check-info-quimica" data-lang="chemistry"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-servicios" name="check-info-sector" value="9">
+																				<label class="form-check-label" for="check-info-servicios" data-lang="services"></label>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-agricultura" name="check-info-sector" value="10">
+																				<label class="form-check-label" for="check-info-agricultura" data-lang="agriculture_livestock"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-automotriz" name="check-info-sector" value="11">
+																				<label class="form-check-label" for="check-info-automotriz" data-lang="automotive"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-construccion" name="check-info-sector" value="12">
+																				<label class="form-check-label" for="check-info-construccion" data-lang="construction"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-electrodomesticos" name="check-info-sector" value="13">
+																				<label class="form-check-label" for="check-info-electrodomesticos" data-lang="appliances"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-madera" name="check-info-sector" value="14">
+																				<label class="form-check-label" for="check-info-madera" data-lang="wood_industry"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-software" name="check-info-sector" value="15">
+																				<label class="form-check-label" for="check-info-software">
+																					IT & Software
+																				</label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-muebles" name="check-info-sector" value="16">
+																				<label class="form-check-label" for="check-info-muebles" data-lang="furniture"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-plasticos" name="check-info-sector" value="17">
+																				<label class="form-check-label" for="check-info-plasticos" data-lang="plastics_rubber"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-salud" name="check-info-sector" value="18">
+																				<label class="form-check-label" for="check-info-salud" data-lang="health"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-info-maquinaria" name="check-info-sector" value="19">
+																				<label class="form-check-label" for="check-info-maquinaria" data-lang="machinery"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_30"></label>
+																	<div class="col-lg-3 fv-row fv-plugins-icon-container">
+																		<input type="email" id="extra-info-correo" name="extra-info-correo" class="form-control form-control-solid">
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="lbl_31"></label>
+																	<div class="col-lg-3 fv-row fv-plugins-icon-container">
+																		<input type="tel" id="extra-info-telefono" name="extra-info-telefono" data-inputmask="'mask': '+ 99 (999) 999-9999'" class="form-control form-control-solid">
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="lbl_32"></label>
+																	<div class="col-lg-3 fv-row fv-plugins-icon-container">
+																		<input type="url" id="extra-info-web" name="extra-info-web" class="form-control form-control-solid text-primary">
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_33"></label>
+																	<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-aeroespacial" name="check-cliente-sector" value="1">
+																				<label class="form-check-label" for="check-cliente-aeroespacial" data-lang="aerospace"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-alimentos" name="check-cliente-sector" value="2">
+																				<label class="form-check-label" for="check-cliente-alimentos" data-lang="food"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-comercio" name="check-cliente-sector" value="3">
+																				<label class="form-check-label" for="check-cliente-comercio" data-lang="commerce_distribution"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-ejecutivo" name="check-cliente-sector" value="4">
+																				<label class="form-check-label" for="check-cliente-ejecutivo" data-lang="executive_electronic"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-Energia" name="check-cliente-sector" value="5">
+																				<label class="form-check-label" for="check-cliente-Energia" data-lang="energy"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-mineria" name="check-cliente-sector" value="6">
+																				<label class="form-check-label" for="check-cliente-mineria" data-lang="mining"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-papel" name="check-cliente-sector" value="7">
+																				<label class="form-check-label" for="check-cliente-papel" data-lang="paper_cardboard"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-quimica" name="check-cliente-sector" value="8">
+																				<label class="form-check-label" for="check-cliente-quimica" data-lang="chemistry"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-servicios" name="check-cliente-sector" value="9">
+																				<label class="form-check-label" for="check-cliente-servicios" data-lang="services"></label>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-lg-4 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-agricultura" name="check-cliente-sector" value="10">
+																				<label class="form-check-label" for="check-cliente-agricultura" data-lang="agriculture_livestock"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-automotriz" name="check-cliente-sector" value="11">
+																				<label class="form-check-label" for="check-cliente-automotriz" data-lang="automotive"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-construccion" name="check-cliente-sector" value="12">
+																				<label class="form-check-label" for="check-cliente-construccion" data-lang="construction"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-electrodomesticos" name="check-cliente-sector" value="13">
+																				<label class="form-check-label" for="check-cliente-electrodomesticos" data-lang="appliances"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-madera" name="check-cliente-sector" value="14">
+																				<label class="form-check-label" for="check-cliente-madera" data-lang="wood_industry"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-software" name="check-cliente-sector" value="15">
+																				<label class="form-check-label" for="check-cliente-software">
+																					IT & Software
+																				</label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-muebles" name="check-cliente-sector" value="16">
+																				<label class="form-check-label" for="check-cliente-muebles" data-lang="furniture"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-plasticos" name="check-cliente-sector" value="17">
+																				<label class="form-check-label" for="check-cliente-plasticos" data-lang="plastics_rubber"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-salud" name="check-cliente-sector" value="18">
+																				<label class="form-check-label" for="check-cliente-salud" data-lang="health"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="check-cliente-maquinaria" name="check-cliente-sector" value="19">
+																				<label class="form-check-label" for="check-cliente-maquinaria" data-lang="machinery"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_34"></label>
+																	<div class="col-lg-3 fv-row fv-plugins-icon-container">
+																		<input type="number" id="extra-info-operaciones" name="extra-info-operaciones" class="form-control form-control-solid">
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_35"></label>
+																	<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="radio" id="extra-info-capacidad-si" value="1" name="extra-info-capacidad">
+																				<label class="form-check-label" for="extra-info-capacidad-si" data-lang="yes"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="radio" id="extra-info-capacidad-no" value="2" name="extra-info-capacidad">
+																				<label class="form-check-label" for="extra-info-capacidad-no" data-lang="not"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6 required" data-lang="lbl_36"></label>
+																	<div class="col-lg-3 fv-row fv-plugins-icon-container">
+																		<input type="number" id="extra-info-empleados" name="extra-info-empleados" class="form-control form-control-solid">
+																	</div>
+																</div>
+																<div class="row mb-6">
+																	<label class="col-lg-4 col-form-label fw-bold fs-6" data-lang=""></label>
+																	<div class="col-lg-8 fv-row fv-plugins-icon-container">
+																		<div class="row">
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="extra-info-espanol" value="1" name="extra-info-idioma">
+																				<label class="form-check-label" for="extra-info-espanol" data-lang="english"></label>
+																			</div>
+																			<div class="form-check form-check-custom m-2 form-check-solid">
+																				<input class="form-check-input" type="checkbox" id="extra-info-ingles" value="2" name="extra-info-idioma">
+																				<label class="form-check-label" for="extra-info-ingles" data-lang="spanish"></label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card-footer d-flex justify-content-end py-6 px-9">
+																<button id="extraInfoSubmit" type="submit" class="btn btn-joffroy-primary">
+																	<span class="indicator-label" data-lang="btn_submit"></span>
+																	<span class="indicator-progress">
+            Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+        </span>
+																</button>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+						<!--begin::Container-->
+						<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+							<!--begin::Copyright-->
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-bold me-1">2023©</span>
+								<a href="https://www.joffroy.com/" target="_blank" class="text-gray-800 text-hover-primary">Joffroy</a>
+							</div>
+							<!--end::Copyright-->
+							
+							<!--end::Menu-->
+						</div>
+						<!--end::Container-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="kt_activities" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="activities" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '900px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_activities_toggle" data-kt-drawer-close="#kt_activities_close">
+			<div class="card shadow-none rounded-0">
+				<!--begin::Header-->
+				<div class="card-header" id="kt_activities_header">
+					<h3 class="card-title fw-bolder text-dark">Activity Logs</h3>
+					<div class="card-toolbar">
+						<button type="button" class="btn btn-sm btn-icon btn-active-light-primary me-n5" id="kt_activities_close">
+							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+							<span class="svg-icon svg-icon-1">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+								</svg>
+							</span>
+							<!--end::Svg Icon-->
+						</button>
+					</div>
+				</div>
+				<!--end::Header-->
+				<!--begin::Body-->
+				<div class="card-body position-relative" id="kt_activities_body">
+					<!--begin::Content-->
+					<div id="kt_activities_scroll" class="position-relative scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_activities_body" data-kt-scroll-dependencies="#kt_activities_header, #kt_activities_footer" data-kt-scroll-offset="5px">
+						<!--begin::Timeline items-->
+						<div class="timeline">
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px me-4">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/communication/com003.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3" d="M2 4V16C2 16.6 2.4 17 3 17H13L16.6 20.6C17.1 21.1 18 20.8 18 20V17H21C21.6 17 22 16.6 22 16V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4Z" fill="black" />
+												<path d="M18 9H6C5.4 9 5 8.6 5 8C5 7.4 5.4 7 6 7H18C18.6 7 19 7.4 19 8C19 8.6 18.6 9 18 9ZM16 12C16 11.4 15.6 11 15 11H6C5.4 11 5 11.4 5 12C5 12.6 5.4 13 6 13H15C15.6 13 16 12.6 16 12Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">There are 2 new tasks for you in “AirPlus Mobile APp” project:</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Added at 4:23 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
+												<img src="assets/media/avatars/150-11.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<!--begin::Record-->
+										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5">
+											<!--begin::Title-->
+											<a href="#" class="fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px">Meeting with customer</a>
+											<!--end::Title-->
+											<!--begin::Label-->
+											<div class="min-w-175px pe-2">
+												<span class="badge badge-light text-muted">Application Design</span>
+											</div>
+											<!--end::Label-->
+											<!--begin::Users-->
+											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2">
+												<!--begin::User-->
+												<div class="symbol symbol-circle symbol-25px">
+													<img src="assets/media/avatars/150-3.jpg" alt="img" />
+												</div>
+												<!--end::User-->
+												<!--begin::User-->
+												<div class="symbol symbol-circle symbol-25px">
+													<img src="assets/media/avatars/150-11.jpg" alt="img" />
+												</div>
+												<!--end::User-->
+												<!--begin::User-->
+												<div class="symbol symbol-circle symbol-25px">
+													<div class="symbol-label fs-8 fw-bold bg-primary text-inverse-primary">A</div>
+												</div>
+												<!--end::User-->
+											</div>
+											<!--end::Users-->
+											<!--begin::Progress-->
+											<div class="min-w-125px pe-2">
+												<span class="badge badge-light-primary">In Progress</span>
+											</div>
+											<!--end::Progress-->
+											<!--begin::Action-->
+											<a href="#" class="btn btn-sm btn-light btn-active-light-primary">View</a>
+											<!--end::Action-->
+										</div>
+										<!--end::Record-->
+										<!--begin::Record-->
+										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-0">
+											<!--begin::Title-->
+											<a href="#" class="fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px">Project Delivery Preparation</a>
+											<!--end::Title-->
+											<!--begin::Label-->
+											<div class="min-w-175px">
+												<span class="badge badge-light text-muted">CRM System Development</span>
+											</div>
+											<!--end::Label-->
+											<!--begin::Users-->
+											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
+												<!--begin::User-->
+												<div class="symbol symbol-circle symbol-25px">
+													<img src="assets/media/avatars/150-5.jpg" alt="img" />
+												</div>
+												<!--end::User-->
+												<!--begin::User-->
+												<div class="symbol symbol-circle symbol-25px">
+													<div class="symbol-label fs-8 fw-bold bg-success text-inverse-primary">B</div>
+												</div>
+												<!--end::User-->
+											</div>
+											<!--end::Users-->
+											<!--begin::Progress-->
+											<div class="min-w-125px">
+												<span class="badge badge-light-success">Completed</span>
+											</div>
+											<!--end::Progress-->
+											<!--begin::Action-->
+											<a href="#" class="btn btn-sm btn-light btn-active-light-primary">View</a>
+											<!--end::Action-->
+										</div>
+										<!--end::Record-->
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/communication/com009.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3" d="M5.78001 21.115L3.28001 21.949C3.10897 22.0059 2.92548 22.0141 2.75004 21.9727C2.57461 21.9312 2.41416 21.8418 2.28669 21.7144C2.15923 21.5869 2.06975 21.4264 2.0283 21.251C1.98685 21.0755 1.99507 20.892 2.05201 20.7209L2.886 18.2209L7.22801 13.879L10.128 16.774L5.78001 21.115Z" fill="black" />
+												<path d="M21.7 8.08899L15.911 2.30005C15.8161 2.2049 15.7033 2.12939 15.5792 2.07788C15.455 2.02637 15.3219 1.99988 15.1875 1.99988C15.0531 1.99988 14.92 2.02637 14.7958 2.07788C14.6717 2.12939 14.5589 2.2049 14.464 2.30005L13.74 3.02295C13.548 3.21498 13.4402 3.4754 13.4402 3.74695C13.4402 4.01849 13.548 4.27892 13.74 4.47095L14.464 5.19397L11.303 8.35498C10.1615 7.80702 8.87825 7.62639 7.62985 7.83789C6.38145 8.04939 5.2293 8.64265 4.332 9.53601C4.14026 9.72817 4.03256 9.98855 4.03256 10.26C4.03256 10.5315 4.14026 10.7918 4.332 10.984L13.016 19.667C13.208 19.859 13.4684 19.9668 13.74 19.9668C14.0115 19.9668 14.272 19.859 14.464 19.667C15.3575 18.77 15.9509 17.618 16.1624 16.3698C16.374 15.1215 16.1932 13.8383 15.645 12.697L18.806 9.53601L19.529 10.26C19.721 10.452 19.9814 10.5598 20.253 10.5598C20.5245 10.5598 20.785 10.452 20.977 10.26L21.7 9.53601C21.7952 9.44108 21.8706 9.32825 21.9221 9.2041C21.9737 9.07995 22.0002 8.94691 22.0002 8.8125C22.0002 8.67809 21.9737 8.54505 21.9221 8.4209C21.8706 8.29675 21.7952 8.18392 21.7 8.08899Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n2">
+									<!--begin::Timeline heading-->
+									<div class="overflow-auto pe-3">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">Invitation for crafting engaging designs that speak human workshop</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Sent at 4:23 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
+												<img src="assets/media/avatars/150-2.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/coding/cod008.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M11.2166 8.50002L10.5166 7.80007C10.1166 7.40007 10.1166 6.80005 10.5166 6.40005L13.4166 3.50002C15.5166 1.40002 18.9166 1.50005 20.8166 3.90005C22.5166 5.90005 22.2166 8.90007 20.3166 10.8001L17.5166 13.6C17.1166 14 16.5166 14 16.1166 13.6L15.4166 12.9C15.0166 12.5 15.0166 11.9 15.4166 11.5L18.3166 8.6C19.2166 7.7 19.1166 6.30002 18.0166 5.50002C17.2166 4.90002 16.0166 5.10007 15.3166 5.80007L12.4166 8.69997C12.2166 8.89997 11.6166 8.90002 11.2166 8.50002ZM11.2166 15.6L8.51659 18.3001C7.81659 19.0001 6.71658 19.2 5.81658 18.6C4.81658 17.9 4.71659 16.4 5.51659 15.5L8.31658 12.7C8.71658 12.3 8.71658 11.7001 8.31658 11.3001L7.6166 10.6C7.2166 10.2 6.6166 10.2 6.2166 10.6L3.6166 13.2C1.7166 15.1 1.4166 18.1 3.1166 20.1C5.0166 22.4 8.51659 22.5 10.5166 20.5L13.3166 17.7C13.7166 17.3 13.7166 16.7001 13.3166 16.3001L12.6166 15.6C12.3166 15.2 11.6166 15.2 11.2166 15.6Z" fill="black" />
+												<path opacity="0.3" d="M5.0166 9L2.81659 8.40002C2.31659 8.30002 2.0166 7.79995 2.1166 7.19995L2.31659 5.90002C2.41659 5.20002 3.21659 4.89995 3.81659 5.19995L6.0166 6.40002C6.4166 6.60002 6.6166 7.09998 6.5166 7.59998L6.31659 8.30005C6.11659 8.80005 5.5166 9.1 5.0166 9ZM8.41659 5.69995H8.6166C9.1166 5.69995 9.5166 5.30005 9.5166 4.80005L9.6166 3.09998C9.6166 2.49998 9.2166 2 8.5166 2H7.81659C7.21659 2 6.71659 2.59995 6.91659 3.19995L7.31659 4.90002C7.41659 5.40002 7.91659 5.69995 8.41659 5.69995ZM14.6166 18.2L15.1166 21.3C15.2166 21.8 15.7166 22.2 16.2166 22L17.6166 21.6C18.1166 21.4 18.4166 20.8 18.1166 20.3L16.7166 17.5C16.5166 17.1 16.1166 16.9 15.7166 17L15.2166 17.1C14.8166 17.3 14.5166 17.7 14.6166 18.2ZM18.4166 16.3L19.8166 17.2C20.2166 17.5 20.8166 17.3 21.0166 16.8L21.3166 15.9C21.5166 15.4 21.1166 14.8 20.5166 14.8H18.8166C18.0166 14.8 17.7166 15.9 18.4166 16.3Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="mb-5 pe-3">
+										<!--begin::Title-->
+										<a href="#" class="fs-5 fw-bold text-gray-800 text-hover-primary mb-2">3 New Incoming Project Files:</a>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Sent at 10:30 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
+												<img src="assets/media/avatars/150-6.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-5">
+											<!--begin::Item-->
+											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
+												<!--begin::Icon-->
+												<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
+												<!--end::Icon-->
+												<!--begin::Info-->
+												<div class="ms-1 fw-bold">
+													<!--begin::Desc-->
+													<a href="#" class="fs-6 text-hover-primary fw-bolder">Finance KPI App Guidelines</a>
+													<!--end::Desc-->
+													<!--begin::Number-->
+													<div class="text-gray-400">1.9mb</div>
+													<!--end::Number-->
+												</div>
+												<!--begin::Info-->
+											</div>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
+												<!--begin::Icon-->
+												<img alt="" class="w-30px me-3" src="assets/media/svg/files/doc.svg" />
+												<!--end::Icon-->
+												<!--begin::Info-->
+												<div class="ms-1 fw-bold">
+													<!--begin::Desc-->
+													<a href="#" class="fs-6 text-hover-primary fw-bolder">Client UAT Testing Results</a>
+													<!--end::Desc-->
+													<!--begin::Number-->
+													<div class="text-gray-400">18kb</div>
+													<!--end::Number-->
+												</div>
+												<!--end::Info-->
+											</div>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<div class="d-flex flex-aligns-center">
+												<!--begin::Icon-->
+												<img alt="" class="w-30px me-3" src="assets/media/svg/files/css.svg" />
+												<!--end::Icon-->
+												<!--begin::Info-->
+												<div class="ms-1 fw-bold">
+													<!--begin::Desc-->
+													<a href="#" class="fs-6 text-hover-primary fw-bolder">Finance Reports</a>
+													<!--end::Desc-->
+													<!--begin::Number-->
+													<div class="text-gray-400">20mb</div>
+													<!--end::Number-->
+												</div>
+												<!--end::Icon-->
+											</div>
+											<!--end::Item-->
+										</div>
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="black" />
+												<path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">Task
+										<a href="#" class="text-primary fw-bolder me-1">#45890</a>merged with
+										<a href="#" class="text-primary fw-bolder me-1">#45890</a>in “Ads Pro Admin Dashboard project:</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Initiated at 4:23 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
+												<img src="assets/media/avatars/150-11.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="black" />
+												<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">3 new application design concepts added:</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Created at 4:23 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
+												<img src="assets/media/avatars/150-3.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<div class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-7">
+											<!--begin::Item-->
+											<div class="overlay me-10">
+												<!--begin::Image-->
+												<div class="overlay-wrapper">
+													<img alt="img" class="rounded w-200px" src="assets/media/demos/demo1.png" />
+												</div>
+												<!--end::Image-->
+												<!--begin::Link-->
+												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
+													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
+												</div>
+												<!--end::Link-->
+											</div>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<div class="overlay me-10">
+												<!--begin::Image-->
+												<div class="overlay-wrapper">
+													<img alt="img" class="rounded w-200px" src="assets/media/demos/demo2.png" />
+												</div>
+												<!--end::Image-->
+												<!--begin::Link-->
+												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
+													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
+												</div>
+												<!--end::Link-->
+											</div>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<div class="overlay">
+												<!--begin::Image-->
+												<div class="overlay-wrapper">
+													<img alt="img" class="rounded w-200px" src="assets/media/demos/demo3.png" />
+												</div>
+												<!--end::Image-->
+												<!--begin::Link-->
+												<div class="overlay-layer bg-dark bg-opacity-10 rounded">
+													<a href="#" class="btn btn-sm btn-primary btn-shadow">Explore</a>
+												</div>
+												<!--end::Link-->
+											</div>
+											<!--end::Item-->
+										</div>
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/communication/com010.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725Z" fill="black" />
+												<path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">New case
+										<a href="#" class="text-primary fw-bolder me-1">#67890</a>is assigned to you in Multi-platform Database Design project</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="overflow-auto pb-5">
+											<!--begin::Wrapper-->
+											<div class="d-flex align-items-center mt-1 fs-6">
+												<!--begin::Info-->
+												<div class="text-muted me-2 fs-7">Added at 4:23 PM by</div>
+												<!--end::Info-->
+												<!--begin::User-->
+												<a href="#" class="text-primary fw-bolder me-1">Alice Tan</a>
+												<!--end::User-->
+											</div>
+											<!--end::Wrapper-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3" d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z" fill="black" />
+												<path d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">You have received a new order:</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Placed at 5:05 AM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Robert Rich">
+												<img src="assets/media/avatars/150-14.jpg" alt="img" />
+											</div>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<!--begin::Notice-->
+										<div class="notice d-flex bg-light-primary rounded border-primary border border-dashed min-w-lg-600px flex-shrink-0 p-6">
+											<!--begin::Icon-->
+											<!--begin::Svg Icon | path: icons/duotune/coding/cod004.svg-->
+											<span class="svg-icon svg-icon-2tx svg-icon-primary me-4">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3" d="M19.0687 17.9688H11.0687C10.4687 17.9688 10.0687 18.3687 10.0687 18.9688V19.9688C10.0687 20.5687 10.4687 20.9688 11.0687 20.9688H19.0687C19.6687 20.9688 20.0687 20.5687 20.0687 19.9688V18.9688C20.0687 18.3687 19.6687 17.9688 19.0687 17.9688Z" fill="black" />
+													<path d="M4.06875 17.9688C3.86875 17.9688 3.66874 17.8688 3.46874 17.7688C2.96874 17.4688 2.86875 16.8688 3.16875 16.3688L6.76874 10.9688L3.16875 5.56876C2.86875 5.06876 2.96874 4.46873 3.46874 4.16873C3.96874 3.86873 4.56875 3.96878 4.86875 4.46878L8.86875 10.4688C9.06875 10.7688 9.06875 11.2688 8.86875 11.5688L4.86875 17.5688C4.66875 17.7688 4.36875 17.9688 4.06875 17.9688Z" fill="black" />
+												</svg>
+											</span>
+											<!--end::Svg Icon-->
+											<!--end::Icon-->
+											<!--begin::Wrapper-->
+											<div class="d-flex flex-stack flex-grow-1 flex-wrap flex-md-nowrap">
+												<!--begin::Content-->
+												<div class="mb-3 mb-md-0 fw-bold">
+													<h4 class="text-gray-900 fw-bolder">Database Backup Process Completed!</h4>
+													<div class="fs-6 text-gray-700 pe-7">Login into Metronic Admin Dashboard to make sure the data integrity is OK</div>
+												</div>
+												<!--end::Content-->
+												<!--begin::Action-->
+												<a href="#" class="btn btn-primary px-6 align-self-center text-nowrap">Proceed</a>
+												<!--end::Action-->
+											</div>
+											<!--end::Wrapper-->
+										</div>
+										<!--end::Notice-->
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="black" />
+												<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="black" />
+												<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">New order
+										<a href="#" class="text-primary fw-bolder me-1">#67890</a>is placed for Workshow Planning &amp; Budget Estimation</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">Placed at 4:23 PM by</div>
+											<!--end::Info-->
+											<!--begin::User-->
+											<a href="#" class="text-primary fw-bolder me-1">Jimmy Bold</a>
+											<!--end::User-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+						</div>
+						<!--end::Timeline items-->
+					</div>
+					<!--end::Content-->
+				</div>
+				<!--end::Body-->
+				<!--begin::Footer-->
+				<div class="card-footer py-5 text-center" id="kt_activities_footer">
+					<a href="../../demo1/dist/pages/profile/activity.html" class="btn btn-bg-body text-primary">View All Activities
+					<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
+					<span class="svg-icon svg-icon-3 svg-icon-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="black" />
+							<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="black" />
+						</svg>
+					</span>
+					<!--end::Svg Icon--></a>
+				</div>
+				<!--end::Footer-->
+			</div>
+		</div>
+		<div id="kt_drawer_chat" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="chat" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'md': '500px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_drawer_chat_toggle" data-kt-drawer-close="#kt_drawer_chat_close">
+			<!--begin::Messenger-->
+			<div class="card w-100 rounded-0" id="kt_drawer_chat_messenger">
+				<!--begin::Card header-->
+				<div class="card-header pe-5" id="kt_drawer_chat_messenger_header">
+					<!--begin::Title-->
+					<div class="card-title">
+						<!--begin::User-->
+						<div class="d-flex justify-content-center flex-column me-3">
+							<a href="#" class="fs-4 fw-bolder text-gray-900 text-hover-primary me-1 mb-2 lh-1">Brian Cox</a>
+							<!--begin::Info-->
+							<div class="mb-0 lh-1">
+								<span class="badge badge-success badge-circle w-10px h-10px me-1"></span>
+								<span class="fs-7 fw-bold text-muted">Active</span>
+							</div>
+							<!--end::Info-->
+						</div>
+						<!--end::User-->
+					</div>
+					<!--end::Title-->
+					<!--begin::Card toolbar-->
+					<div class="card-toolbar">
+						<!--begin::Menu-->
+						<div class="me-2">
+							<button class="btn btn-sm btn-icon btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+								<i class="bi bi-three-dots fs-3"></i>
+							</button>
+							<!--begin::Menu 3-->
+							<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+								<!--begin::Heading-->
+								<div class="menu-item px-3">
+									<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Contacts</div>
+								</div>
+								<!--end::Heading-->
+								<!--begin::Menu item-->
+								<div class="menu-item px-3">
+									<a href="#" class="menu-link px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Add Contact</a>
+								</div>
+								<!--end::Menu item-->
+								<!--begin::Menu item-->
+								<div class="menu-item px-3">
+									<a href="#" class="menu-link flex-stack px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">Invite Contacts
+									<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a contact email to send an invitation"></i></a>
+								</div>
+								<!--end::Menu item-->
+								<!--begin::Menu item-->
+								<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
+									<a href="#" class="menu-link px-3">
+										<span class="menu-title">Groups</span>
+										<span class="menu-arrow"></span>
+									</a>
+									<!--begin::Menu sub-->
+									<div class="menu-sub menu-sub-dropdown w-175px py-4">
+										<!--begin::Menu item-->
+										<div class="menu-item px-3">
+											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Create Group</a>
+										</div>
+										<!--end::Menu item-->
+										<!--begin::Menu item-->
+										<div class="menu-item px-3">
+											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Invite Members</a>
+										</div>
+										<!--end::Menu item-->
+										<!--begin::Menu item-->
+										<div class="menu-item px-3">
+											<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Settings</a>
+										</div>
+										<!--end::Menu item-->
+									</div>
+									<!--end::Menu sub-->
+								</div>
+								<!--end::Menu item-->
+								<!--begin::Menu item-->
+								<div class="menu-item px-3 my-1">
+									<a href="#" class="menu-link px-3" data-bs-toggle="tooltip" title="Coming soon">Settings</a>
+								</div>
+								<!--end::Menu item-->
+							</div>
+							<!--end::Menu 3-->
+						</div>
+						<!--end::Menu-->
+						<!--begin::Close-->
+						<div class="btn btn-sm btn-icon btn-active-light-primary" id="kt_drawer_chat_close">
+							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+							<span class="svg-icon svg-icon-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+								</svg>
+							</span>
+							<!--end::Svg Icon-->
+						</div>
+						<!--end::Close-->
+					</div>
+					<!--end::Card toolbar-->
+				</div>
+				<!--end::Card header-->
+				<!--begin::Card body-->
+				<div class="card-body" id="kt_drawer_chat_messenger_body">
+					<!--begin::Messages-->
+					<div class="scroll-y me-n5 pe-5" data-kt-element="messages" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_drawer_chat_messenger_header, #kt_drawer_chat_messenger_footer" data-kt-scroll-wrappers="#kt_drawer_chat_messenger_body" data-kt-scroll-offset="0px">
+						<!--begin::Message(in)-->
+						<div class="d-flex justify-content-start mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/150-15.jpg" />
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Details-->
+									<div class="ms-3">
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary me-1">Brian Cox</a>
+										<span class="text-muted fs-7 mb-1">2 mins</span>
+									</div>
+									<!--end::Details-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">How likely are you to recommend our company to your friends and family ?</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(in)-->
+						<!--begin::Message(out)-->
+						<div class="d-flex justify-content-end mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-end">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Details-->
+									<div class="me-3">
+										<span class="text-muted fs-7 mb-1">5 mins</span>
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary ms-1">You</a>
+									</div>
+									<!--end::Details-->
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/blank.png" />
+									</div>
+									<!--end::Avatar-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-primary text-dark fw-bold mw-lg-400px text-end" data-kt-element="message-text">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(out)-->
+						<!--begin::Message(in)-->
+						<div class="d-flex justify-content-start mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/150-15.jpg" />
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Details-->
+									<div class="ms-3">
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary me-1">Brian Cox</a>
+										<span class="text-muted fs-7 mb-1">1 Hour</span>
+									</div>
+									<!--end::Details-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">Ok, Understood!</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(in)-->
+						<!--begin::Message(out)-->
+						<div class="d-flex justify-content-end mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-end">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Details-->
+									<div class="me-3">
+										<span class="text-muted fs-7 mb-1">2 Hours</span>
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary ms-1">You</a>
+									</div>
+									<!--end::Details-->
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/blank.png" />
+									</div>
+									<!--end::Avatar-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-primary text-dark fw-bold mw-lg-400px text-end" data-kt-element="message-text">You’ll receive notifications for all issues, pull requests!</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(out)-->
+						<!--begin::Message(in)-->
+						<div class="d-flex justify-content-start mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/150-15.jpg" />
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Details-->
+									<div class="ms-3">
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary me-1">Brian Cox</a>
+										<span class="text-muted fs-7 mb-1">3 Hours</span>
+									</div>
+									<!--end::Details-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">You can unwatch this repository immediately by clicking here:
+								<a href="https://www.joffroy.com/">Keenthemes.com</a></div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(in)-->
+						<!--begin::Message(out)-->
+						<div class="d-flex justify-content-end mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-end">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Details-->
+									<div class="me-3">
+										<span class="text-muted fs-7 mb-1">4 Hours</span>
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary ms-1">You</a>
+									</div>
+									<!--end::Details-->
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/blank.png" />
+									</div>
+									<!--end::Avatar-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-primary text-dark fw-bold mw-lg-400px text-end" data-kt-element="message-text">Most purchased Business courses during this sale!</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(out)-->
+						<!--begin::Message(in)-->
+						<div class="d-flex justify-content-start mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/150-15.jpg" />
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Details-->
+									<div class="ms-3">
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary me-1">Brian Cox</a>
+										<span class="text-muted fs-7 mb-1">5 Hours</span>
+									</div>
+									<!--end::Details-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(in)-->
+						<!--begin::Message(template for out)-->
+						<div class="d-flex justify-content-end mb-10 d-none" data-kt-element="template-out">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-end">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Details-->
+									<div class="me-3">
+										<span class="text-muted fs-7 mb-1">Just now</span>
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary ms-1">You</a>
+									</div>
+									<!--end::Details-->
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/blank.png" />
+									</div>
+									<!--end::Avatar-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-primary text-dark fw-bold mw-lg-400px text-end" data-kt-element="message-text"></div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(template for out)-->
+						<!--begin::Message(template for in)-->
+						<div class="d-flex justify-content-start mb-10 d-none" data-kt-element="template-in">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::User-->
+								<div class="d-flex align-items-center mb-2">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-35px symbol-circle">
+										<img alt="Pic" src="assets/media/avatars/150-15.jpg" />
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Details-->
+									<div class="ms-3">
+										<a href="#" class="fs-5 fw-bolder text-gray-900 text-hover-primary me-1">Brian Cox</a>
+										<span class="text-muted fs-7 mb-1">Just now</span>
+									</div>
+									<!--end::Details-->
+								</div>
+								<!--end::User-->
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">Right before vacation season we have the next Big Deal for you.</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(template for in)-->
+					</div>
+					<!--end::Messages-->
+				</div>
+				<!--end::Card body-->
+				<!--begin::Card footer-->
+				<div class="card-footer pt-4" id="kt_drawer_chat_messenger_footer">
+					<!--begin::Input-->
+					<textarea class="form-control form-control-flush mb-3" rows="1" data-kt-element="input" placeholder="Type a message"></textarea>
+					<!--end::Input-->
+					<!--begin:Toolbar-->
+					<div class="d-flex flex-stack">
+						<!--begin::Actions-->
+						<div class="d-flex align-items-center me-2">
+							<button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" title="Coming soon">
+								<i class="bi bi-paperclip fs-3"></i>
+							</button>
+							<button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button" data-bs-toggle="tooltip" title="Coming soon">
+								<i class="bi bi-upload fs-3"></i>
+							</button>
+						</div>
+						<!--end::Actions-->
+						<!--begin::Send-->
+						<button class="btn btn-primary" type="button" data-kt-element="send">Send</button>
+						<!--end::Send-->
+					</div>
+					<!--end::Toolbar-->
+				</div>
+				<!--end::Card footer-->
+			</div>
+			<!--end::Messenger-->
+		</div>
+		<div class="modal fade" id="kt_modal_invite_friends" tabindex="-1" aria-hidden="true">
+			<!--begin::Modal dialog-->
+			<div class="modal-dialog mw-650px modal-dialog-centered">
+				<!--begin::Modal content-->
+				<div class="modal-content">
+					<!--begin::Modal header-->
+					<div class="modal-header pb-0 border-0 justify-content-end">
+						<!--begin::Close-->
+						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+							<span class="svg-icon svg-icon-1">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+								</svg>
+							</span>
+							<!--end::Svg Icon-->
+						</div>
+						<!--end::Close-->
+					</div>
+					<!--begin::Modal header-->
+					<!--begin::Modal body-->
+					<div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+						<!--begin::Heading-->
+						<div class="text-center mb-13">
+							<!--begin::Title-->
+							<h1 class="mb-3">Enviar solicitud</h1>
+							<!--end::Title-->
+							<!--begin::Description-->
+							<div class="text-muted fw-bold fs-5">Llene todos los campos para mandar la 
+							<a href="#" class="link-primary fw-bolder">solicitud</a>.</div>
+							<!--end::Description-->
+						</div>
+						<!--end::Heading-->
+
+
+						<label for="emailaddress" class="form-label fs-6 fw-bolder mb-1">Nombre</label>
+						<input type="text" class="form-control form-control-lg form-control-solid" id="emailaddress" placeholder="Ingrese el nombre de la persona" name="emailaddress">
+
+						<label for="emailaddress" class="form-label fs-6 fw-bolder mb-1 mt-8">Teléfono</label>
+						<input type="text" class="form-control form-control-lg form-control-solid" id="emailaddress" placeholder="Ingrese el teléfono de la persona" name="emailaddress">
+
+						<label for="emailaddress" class="form-label fs-6 fw-bolder mb-1 mt-8">Correo electrónico</label>
+						<input type="text" class="form-control form-control-lg form-control-solid" id="emailaddress" placeholder="Ingrese el correo electrónico de la persona" name="emailaddress">
+
+						<!--begin::Notice-->
+						<div class="d-flex flex-stack mt-10">
+							<!--begin::Label-->
+							<div class="me-5 fw-bold">
+								<label class="fs-6">Importante</label>
+								<div class="fs-7 text-muted">Se enviará un correo electrónico a la persona ingresada para el llenado de la información solicitada.</div>
+							</div>
+							<!--end::Label-->
+						</div>
+
+						<div class="text-end">
+							<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar solicitud</button>
+						</div>
+						<!--end::Notice-->
+					</div>
+					<!--end::Modal body-->
+				</div>
+				<!--end::Modal content-->
+			</div>
+			<!--end::Modal dialog-->
+		</div>
+
+		<div class="modal fade" tabindex="-1" id="mdl-preview">
+			<div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+				<div class="modal-content">
+					<div class="modal-header bg-joffroy-primary">
+						<h5 class="modal-title text-white">Detalle de la factura</h5>
+					</div>
+
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-sm-12 col-lg-8">
+								<h2 class="fw-boldest text-primary mb-4">Files</h2>
+								<form id="preview-form" class="form mb-4" autocomplete="off">
+
+									<div class="row">
+										<div class="col-sm-12 col-lg-4" id="pdf-document-div">
+											<a id="pdf-document-link" target="_blank" class="btn btn-outline btn-outline-dashed btn-outline-default p-7 d-flex align-items-center mb-5">
+                                                <span class="svg-icon svg-icon-4x me-4">
+       <i class="fa-duotone fa-file-pdf fs-2hx" style="--fa-primary-color: #1A2BC2; --fa-secondary-color: #1A2BC2;"></i>
+    </span>
+												<span class="d-block fw-bold text-start">
+                                                    <span class="text-dark fw-bolder d-block fs-3">CFDI(pdf)</span>
+                                                    <span class="text-muted fw-bold fs-6" id="pdf-document-size"></span>
+                                                </span>
+											</a>
+										</div>
+										<div class="col-sm-12 col-lg-4" id="xml-document-div">
+											<a id="xml-document-link" download class="btn btn-outline btn-outline-dashed btn-outline-default p-7 d-flex align-items-center mb-5">
+                                                <span class="svg-icon svg-icon-4x me-4">
+                                                    <i class="fa-duotone fa-file-code fs-2hx" style="--fa-primary-color: #1A2BC2; --fa-secondary-color: #1A2BC2;"></i>
+    </span>
+												<span class="d-block fw-bold text-start">
+                                                    <span class="text-dark fw-bolder d-block fs-3">CFDI(xml)</span>
+                                                    <span class="text-muted fw-bold fs-6" id="xml-document-size"></span>
+                                                </span>
+											</a>
+										</div>
+										<div class="col-sm-12 col-lg-4" id="other-document-div">
+											<a id="other-document-link" target="_blank" class="btn btn-outline btn-outline-dashed btn-outline-default p-7 d-flex align-items-center mb-5">
+                                                <span class="svg-icon svg-icon-4x me-4">
+       <i class="fa-duotone fa-file-invoice fs-2hx" style="--fa-primary-color: #1A2BC2; --fa-secondary-color: #1A2BC2;"></i>
+    </span>
+												<span class="d-block fw-bold text-start">
+                                                    <span class="text-dark fw-bolder d-block fs-3">Other files(pdf, xml, xlsx)</span>
+                                                    <span class="text-muted fw-bold fs-6" id="other-document-size"></span>
+                                                </span>
+											</a>
+										</div>
+									</div>
+
+									<div class="separator separator-dashed my-6"></div>
+									<h2 class="fw-boldest text-primary mb-4">Invoice</h2>
+									<div class="row">
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-invoice" class="form-label fs-6 fw-bolder">Invoice</label>
+												<input id="preview-invoice" name="preview-invoice" type="text" class="form-control">
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-date" class="form-label fs-6 fw-bolder">Date</label>
+												<input id="preview-date" name="preview-date" type="text" class="form-control">
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-expire" class="form-label fs-6 fw-bolder">Expire</label>
+												<input id="preview-expire" name="preview-expire" type="text" class="form-control">
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-amount" class="form-label fs-6 fw-bolder">Amount</label>
+												<input id="preview-amount" name="preview-amount" type="number" step="0.1" min="1" class="form-control">
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-currency" class="form-label fs-6 fw-bolder">Currency</label>
+												<select id="preview-currency" name="preview-currency" class="form-select">
+													<option></option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-payment" class="form-label fs-6 fw-bolder">Payment condition</label>
+												<select id="preview-payment" name="preview-payment" class="form-select">
+													<option></option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-expense" class="form-label fs-6 fw-bolder">Expense concept</label>
+												<select id="preview-expense" name="preview-expense" class="form-select">
+													<option></option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-company" class="form-label fs-6 fw-bolder">Company</label>
+												<select id="preview-company" name="preview-company" class="form-select">
+													<option></option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-4 mb-3">
+											<div class="fv-row">
+												<label for="preview-branch" class="form-label fs-6 fw-bolder">Branch</label>
+												<select id="preview-branch" name="preview-branch" class="form-select">
+													<option></option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="separator separator-dashed my-6"></div>
+								<h2 class="fw-boldest text-primary mb-4">Concepts</h2>
+								<div class="preview-concept-form-div">
+									<form id="preview-concept-form" class="form mb-4" autocomplete="off">
+										<div class="row">
+											<div class="col-sm-12 col-lg-4">
+												<div class="fv-row">
+													<label class="form-label fs-6 fw-bolder required">Concept</label>
+													<input id="preview-concept-description" name="preview-concept-description" type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-sm-12 col-lg">
+												<div class="fv-row">
+													<label class="form-label fs-6 fw-bolder required">Unit Price</label>
+													<input id="preview-concept-price" name="preview-concept-price" type="number" step="0.1" min="1" class="form-control">
+												</div>
+											</div>
+											<div class="col-sm-12 col-lg">
+												<div class="fv-row">
+													<label class="form-label fs-6 fw-bolder required">Quantity</label>
+													<input id="preview-concept-quantity" name="preview-concept-quantity" type="number" step="0.1" min="1" class="form-control">
+												</div>
+											</div>
+											<div class="col-sm-12 col-lg d-flex justify-content-center align-items-end mb-2">
+												<button id="preview-concept-submit" type="submit" class="btn btn-joffroy-primary w-100 me-1">
+                                                <span class="indicator-label">
+                                                    <span class="submit-icon"><i class="fa-duotone fa-plus" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff;"></i></span>
+                                                    <span class="button_add_concept" data-id="" data-invoice="" data-index="">Add</span>
+                                                </span>
+													<span class="indicator-progress">
+                                                    <span data-lang="wait"></span>
+                                                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                                </span>
+												</button>
+												<button id="preview-concept-update-cancel" type="button" class="btn btn-light btn-icon"
+														data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="" data-bs-original-title=""
+														style="display: none;">
+													<i class="fa-duotone fa-ban"></i>
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="table-responsive mb-3">
+									<table id="preview-concepts-table" class="table table-row-dashed align-middle gs-0 gy-2">
+										<thead class="bg-joffroy-primary text-white"></thead>
+									</table>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<label for="preview-notes" class="form-label fs-6 fw-bolder">Notes</label>
+										<textarea id="preview-notes" name="preview-notes" class="form-control" style="height: calc(100% - 38px);" rows="3"></textarea>
+									</div>
+									<div class="col-4">
+										<div class="row mb-3">
+											<div class="col-sm-6 text-end">
+												<label class="form-label fs-6 fw-bolder col-form-label">Subtotal</label>
+											</div>
+											<div class="col-sm-6">
+												<input id="preview-subtotal" name="preview-subtotal" type="number" step="0.1" min="1" class="form-control text-end" disabled>
+											</div>
+										</div>
+										<div class="row mb-3">
+											<div class="col-sm-6 text-end">
+												<label class="form-label fs-6 fw-bolder col-form-label">Withholding -</label>
+											</div>
+											<div class="col-sm-6">
+												<input id="preview-withholding" name="preview-withholding" type="number" step="0.1" min="1" maxlength="3" class="form-control text-end">
+											</div>
+										</div>
+										<div class="row mb-3">
+											<div class="col-sm-6 text-end">
+												<label class="form-label fs-6 fw-bolder col-form-label">Taxes +</label>
+											</div>
+											<div class="col-sm-6">
+												<input id="preview-taxes" name="preview-taxes" type="number" step="0.1" min="1" maxlength="3" class="form-control text-end">
+											</div>
+										</div>
+										<div class="row mb-3">
+											<div class="col-sm-6 text-end">
+												<label class="form-label fs-6 fw-bolder col-form-label">Total amount</label>
+											</div>
+											<div class="col-sm-6">
+												<input id="preview-total" name="preview-total" type="number" step="0.1" class="form-control text-end" disabled>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-lg-4">
+								<div class="sticky-top">
+									<h2 class="fw-boldest text-primary mb-4">Summary</h2>
+									<h3>Status</h3>
+									<h3 id="preview-status-lbl" class="text-center py-4 rounded-3 text-uppercase"></h3>
+									<h3>Receipt of payment</h3>
+									<div id="receipt-document-div" class="w-100"></div>
+									<h3>Logbook</h3>
+									<div id="bill-log"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal-footer">
+						<small id="preview-total-msg"></small>
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-lang="button_close">Close</button>
+						<button id="preview-submit" type="submit" class="btn btn-joffroy-primary">
+                            <span class="indicator-label">
+                                <span class="submit-icon"><i class="fa-duotone fa-plus" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff;"></i></span>
+                                <span data-lang="button_save">Add</span>
+                            </span>
+							<span class="indicator-progress">
+                                                    <span data-lang="wait"></span>
+                                                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                                </span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<span class="svg-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
+				</svg>
+			</span>
+		</div>
+		<script>var hostUrl = "assets/";</script>
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+
+		<!--begin::Page Custom Javascript(used by this page)-->
+		<script src="assets/js/custom/pages/projects/list/list.js"></script>
+		<script src="assets/js/custom/modals/users-search.js"></script>
+		<!--end::Page Custom Javascript-->
+
+		<script src="assets/js/function/initialization.js"></script>
+		<script src="assets/js/function/users.js"></script>
+		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<!-- <script>
+			printFecha();
+			printUsuario(1);
+		</script> -->
+
+		<script>
+
+		let identificador;
+
+		// Obtener la URL actual
+		var url = new URL(window.location.href);
+
+		// Obtener los parámetros de la URL
+		var params = new URLSearchParams(url.search);
+
+		// Obtener el valor de un parámetro específico
+		var parametro = params.get('identificador');
+
+		console.log(parametro)
+		//Que me treaiga la informacion para actualizar
+		if (parametro != null) {
+			
+			identificador = parametro;
+		}
+
+			// Obtener los elementos <a> por su ID
+			// var informacionCambioDeUbicacion = document.getElementById('informacion_cambioDeUbicacion');
+			// var proveedoresCambioDeUbicacion = document.getElementById('proveedores_cambioDeUbicacion');
+			// var proveedoresContCambioDeUbicacion = document.getElementById('proveedoresCont_cambioDeUbicacion');
+			// var proveedoresBillCambioDeUbicacion = document.getElementById('proveedoresBill_cambioDeUbicacion');
+
+			// Modificar el atributo href de cada elemento
+			// informacionCambioDeUbicacion.href += '?identificador='+identificador;
+			// proveedoresCambioDeUbicacion.href += '?identificador='+identificador;
+			// proveedoresContCambioDeUbicacion.href += '?identificador='+identificador;
+			// proveedoresBillCambioDeUbicacion.href += '?identificador='+identificador;
+
+		</script>
+		
+		<script>
+			// var myModal = new bootstrap.Modal(document.getElementById('mdl_bienvenida'));
+
+			// var mdl_btnPrev = document.getElementById('mdl-btnPrev');
+			// var mdl_btnNext = document.getElementById('mdl-btnNext');
+			// var mdl_btnFinish = document.getElementById('mdl-btnFinish');
+
+			var slc_country_01 = document.getElementById("slc-country-01");
+			var slc_typprovider_01 = document.getElementById("slc-typprovider-01");
+			var inp_file_situation = document.getElementById("inp-file-situation");
+
+			var rw_razonsocial = document.getElementById('rw-razonsocial');
+			var rw_comercial = document.getElementById('rw-comercial');
+			var rw_colinia = document.getElementById('rw-colinia');
+			var rw_calle = document.getElementById('rw-calle');
+			var rw_nointext = document.getElementById('rw-nointext');
+			var rw_ubicacion = document.getElementById('rw-ubicacion');
+			// var rw_codpostal = document.getElementById('rw-codpostal');
+			var rw_codpostal = document.getElementById('zip_code');
+			var rw_tipproveedor = document.getElementById('rw-tipproveedor');
+			var rw_idefiscal = document.getElementById('rw-idefiscal');
+			var rw_girnegocio = document.getElementById('rw-girnegocio');
+			var rw_regimencapital = document.getElementById('rw-regimencapital');
+
+			//printFecha();
+
+			function camposInicio(){
+				rw_razonsocial.style.display = '';
+				rw_comercial.style.display = '';
+				rw_colinia.style.display = '';
+				rw_calle.style.display = '';
+				rw_nointext.style.display = '';
+				rw_ubicacion.style.display = '';
+				rw_codpostal.style.display = '';
+				rw_tipproveedor.style.display = '';
+				rw_idefiscal.style.display = '';
+				rw_girnegocio.style.display = '';
+				rw_regimencapital.style.display = 'none';
+				document.getElementById('cmp-p-fisica').style.display = 'none';
+			}
+			camposInicio();
+
+			function mensajeBienvenida(){
+				myModal.show();
+				mdl_btnPrev.style.display = 'none';
+				mdl_btnFinish.style.display = 'none';
+			}
+			//mensajeBienvenida();
+			/////////////////////////////////////////////////////////////////////////
+			var ic = 1;
+
+			function cNext(){
+				if(ic != 4){
+					ic++;
+					$('#crsBienvenida').carousel('next');
+				}
+				if(ic == 2){
+					mdl_btnPrev.style.display = '';
+				}
+				if(ic == 4){
+					mdl_btnPrev.style.display = '';
+					mdl_btnFinish.style.display = '';
+					mdl_btnNext.style.display = 'none';
+				}
+			}
+			function cPrevius(){
+				if(ic != 1){
+					ic--;
+					$('#crsBienvenida').carousel('prev');
+				}
+				if(ic == 1){
+					mdl_btnPrev.style.display = 'none';
+				}
+				if(ic != 4){
+					mdl_btnFinish.style.display = 'none';
+					mdl_btnNext.style.display = '';
+				}
+			}
+
+			function selectCountry(){
+				switch(slc_country_01.value){
+					case "1":
+						$('#cllMexican').collapse('show');
+						break;
+					default:
+						$('#cllMexican').collapse('hide');
+						break;
+				}
+			}
+			function selectProvider(){
+				eventProvider(slc_typprovider_01.value);
+				document.getElementById("slc-typprovider-02").value = slc_typprovider_01.value;
+				$('#slc-typprovider-02').val(slc_typprovider_01.value).trigger('change');
+			}
+			function selectProvider02(){
+				console.log("ss")
+				eventProvider(document.getElementById("slc-typprovider-02").value);
+			}
+
+			function eventProvider(_opc){
+				switch(_opc){
+					case "1":
+						//persona fisica
+						document.getElementById('spn-tipo').innerHTML = 'Physical person';
+						document.getElementById('cmp-p-fisica').style.display = 'flex';
+						document.getElementById('inp-razonsocial').style.display = 'none';
+						rw_regimencapital.style.display = 'none';
+						break;
+					case "2":
+						//persona moral
+						document.getElementById('spn-tipo').innerHTML = 'Moral person';
+						document.getElementById('inp-razonsocial').style.display = '';
+						document.getElementById('cmp-p-fisica').style.display = 'none';
+						rw_regimencapital.style.display = '';
+						break;
+				}
+			}
+
+			function cFinish(){
+				if(slc_country_01.value == 0 || slc_typprovider_01.value == 0 || inp_file_situation.value == ''){
+
+				}
+				else{
+					myModal.hide();
+				}
+			}
+		</script>
+		<script src="assets/js/traductor/proveedores-info-translate.js"></script>
+		<script src="assets/js/pages/proveedores-info.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,90 @@
+.st1{
+    fill:transparent;
+    -webkit-animation: color1 1s forwards .5s;
+    -moz-animation: color1 1s forwards .5s;
+    -o-animation: color1 1s forwards .5s;
+    animation: color1 1s forwards .5s;
+}
+.st2{
+    fill:transparent;
+    -webkit-animation: color2 1s forwards .5s;
+    -moz-animation: color2 1s forwards .5s;
+    -o-animation: color2 1s forwards .5s;
+    animation: color2 1s forwards .5s;
+}
+#borde{
+    fill: none;	
+    stroke: white;
+    stroke-dasharray: 3800;
+    stroke-dashoffset: 0;
+    -webkit-animation: animacion 4s forwards;
+    -moz-animation: animacion 4s forwards;
+    -o-animation: animacion 4s forwards;
+    animation: animacion 4s forwards;
+}
+#texto {
+    -webkit-animation: color2 1s forwards .5s;
+    -moz-animation: color2 1s forwards .5s;
+    -o-animation: color2 1s forwards .5s;
+    animation: color2 1s forwards .5s;
+}
+@-webkit-keyframes animacion{
+    0%{
+        stroke-dashoffset: 3800;
+        stroke: white;
+    }
+    60%{
+        stroke-dashoffset: 0;
+        stroke: white;
+    }	
+    100%{
+        stroke: transparent;
+    }
+
+}
+@keyframes animacion{
+    0%{
+        stroke-dashoffset: 3800;
+        stroke: white;
+    }
+    60%{
+        stroke-dashoffset: 0;
+        stroke: white;
+    }	
+    100%{
+        stroke: transparent;
+    }
+
+}
+@-webkit-keyframes color1{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill: #132CC9;
+    }
+}
+@keyframes color1{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill: #132CC9;
+    }
+}
+@-webkit-keyframes color2{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#001733;
+    }
+}
+@keyframes color2{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#001733;
+    }
+}

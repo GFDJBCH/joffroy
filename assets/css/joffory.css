@@ -1,0 +1,154 @@
+.aside.aside-dark, .aside.aside-dark .aside-logo{
+    background-color: #031832;
+}
+.header-fixed .header{
+    background-color: #0A1D3E;
+}
+
+.alert-primary {
+    color: #1A2BC2;
+    background-color: #D1D4F2;
+    border-color: #D1D4F2
+}
+
+.text-primary{
+    color: #1A2BC2 !important;
+}
+
+.btn-primary{
+    background-color: #1A2BC2 !important;
+}
+.btn-primary:hover {
+    background-color: #3040C8 !important;
+}
+.btn-primary.btn-sm:hover {
+    background-color: #3040C8 !important;
+}
+
+.bg-hover-joffroy-primary {
+    cursor: pointer
+}
+
+.bg-hover-joffroy-primary:hover {
+    background-color: #1A2BC2 !important
+}
+
+.btn-joffroy-primary {
+    background-color: #1A2BC2 !important;
+    color: white;
+}
+.btn-joffroy-primary:hover {
+    background-color: #14229B !important;
+    color: white;
+}
+.bg-joffroy-primary {
+    background-color: #1A2BC2 !important;
+    color: white;
+}
+.bg-light-joffroy-primary {
+    background-color: #E8E9F8 !important;
+    color: black;
+}
+.border-joffroy-primary {
+    border-color: #1A2BC2 !important;
+}
+.bg-joffroy-light-primary {
+    background-color: #E8E9F8 !important;
+    color: #0A114D;
+}
+.btn-joffroy-warning {
+    background-color: #54BDE4 !important;
+    color: white;
+}
+.btn-joffroy-warning:hover {
+    background-color: #1BA7DB !important;
+    color: white;
+}
+.bg-blue{
+    background-color: #1A2BC2!important;
+}
+.aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+    fill: white!important;
+}
+.aside-dark .menu .menu-item .menu-link.active {
+    background-color: #1A2BC2!important;
+}
+.aside-dark .menu .menu-item .menu-link {
+    border-radius: .25rem!important;
+}
+.aside-dark .menu .menu-item .menu-section {
+    color: white!important;
+}
+.menu, .menu-wrapper {
+    padding: 0px 1.25rem;
+}
+
+.bg-blue-pr{
+    background-color: #031832;
+}
+.btn-primary-sd{
+    background-color: #1A2BC2!important;
+    color: white;
+}
+.btn-primary-sd:hover{
+    background-color: #2234E2!important;
+    color: white;
+}
+
+.text-blue{
+    color: #1A2BC2!important;
+}
+.text-purple{
+    color: #6f42c1!important;
+}
+
+.transition{
+    transition: all 0.5s;
+}
+
+.fn-20px{
+    font-size: 20px;
+}
+
+.menu-icon i{
+    color: white!important;
+    font-size: 18px;
+}
+
+#kt_toolbar_primary_button{
+    cursor: auto;
+    background-color: #1A2BC2!important;
+}
+#kt_toolbar_primary_button:hover{
+    background-color: #1A2BC2!important;
+}
+
+.btn.btn-sm.btn-flex.btn-light.btn-active-primary.fw-bolder{
+    display: none;
+}
+.shepherd-arrow:before {
+    border-left: 4px solid #1A2BC2;
+    border-top: 4px solid #1A2BC2;
+    top: -4px;
+}
+
+
+/* Estilo para un select2 deshabilitado */
+.select2-container--disabled .select2-selection {
+    background-color: #eff2f5; /* Cambia el color de fondo a gris claro */
+    cursor: not-allowed; /* Cambia el cursor a no permitido */
+    pointer-events: none; /* Desactiva eventos de puntero */
+}
+
+/* Estilo para un select2 habilitado */
+.select2-container--enabled .select2-selection {
+    background-color: #fff; /* Cambia el color de fondo a blanco */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    pointer-events: auto; /* Habilita eventos de puntero */
+}
+/* Estilo para un flatpickr deshabilitado */
+.flatpickr-input[disabled] {
+    background-color: #eff2f5; /* Cambia el color de fondo a #eff2f5 */
+    cursor: not-allowed; /* Cambia el cursor a no permitido */
+    pointer-events: none; /* Desactiva eventos de puntero */
+}

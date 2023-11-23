@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base href="">
+	<title>Joffroy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8">
+	<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+	<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title"
+		content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
+	<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+	<!--begin::Fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+	<link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+	<!--end::Fonts-->
+	<!--begin::Page Vendor Stylesheets(used by this page)-->
+	<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Page Vendor Stylesheets-->
+	<!--begin::Global Stylesheets Bundle(used by all pages)-->
+	<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Global Stylesheets Bundle-->
+
+	<link rel="shortcut icon" href="assets/media/icono.svg" />
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/joffory.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
+</head>
+<body id="kt_body"
+	class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed"
+	style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+	<!--begin::Main-->
+	<!--begin::Root-->
+	<div class="d-flex flex-column flex-root">
+		<!--begin::Page-->
+		<div class="page d-flex flex-row flex-column-fluid" style="background-color: #DEE0E4;">
+			<div id="kt_aside" class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside"
+				 data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
+				 data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
+				 data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+				<div class="aside-logo flex-column-auto" id="kt_aside_logo">
+					<a href="index.html">
+						<img alt="Logo" src="assets/media/logos/logo.svg" class="h-25px logo"/>
+					</a>
+					<div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle"
+						 data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
+						 data-kt-toggle-name="aside-minimize">
+                    <span class="svg-icon svg-icon-1 rotate-180">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+									 fill="none">
+									<path opacity="0.5"
+										  d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z"
+										  fill="black"/>
+									<path d="M8.2657 11.4343L12.45 7.25C12.8642 6.83579 12.8642 6.16421 12.45 5.75C12.0358 5.33579 11.3642 5.33579 10.95 5.75L5.40712 11.2929C5.01659 11.6834 5.01659 12.3166 5.40712 12.7071L10.95 18.25C11.3642 18.6642 12.0358 18.6642 12.45 18.25C12.8642 17.8358 12.8642 17.1642 12.45 16.75L8.2657 12.5657C7.95328 12.2533 7.95328 11.7467 8.2657 11.4343Z"
+										  fill="black"/>
+								</svg>
+							</span>
+					</div>
+				</div>
+				<div class="aside-menu flex-column-fluid">
+					<div class="hover-scroll-overlay-y" id="kt_aside_menu_wrapper" data-kt-scroll="true"
+						 data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto"
+						 data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer"
+						 data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="0">
+						<div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
+							 id="#kt_aside_menu" data-kt-menu="true">
+							<div class="menu-item">
+								<div class="menu-content pb-2">
+									<span class="menu-section text-white text-uppercase fs-8 ls-1" data-lang="menu_navigation"></span>
+								</div>
+							</div>
+							<div class="menu-item">
+								<a class="menu-link bg-hover-joffroy-primary" href="proveedores.html">
+									<span class="menu-icon"><i class="fa-solid fa-building-user"></i></span>
+									<span class="menu-title" data-lang="menu_supplier"></span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a class="menu-link active bg-hover-joffroy-primary" href="documentacion.html">
+									<span class="menu-icon"><i class="fa-solid fa-file-arrow-up"></i></span>
+									<span class="menu-title" data-lang="menu_pending"></span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a class="menu-link bg-hover-joffroy-primary" href="documentos.html">
+									<span class="menu-icon"><i class="fa-solid fa-file-lines"></i></span>
+									<span class="menu-title" data-lang="menu_document"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+				<div id="kt_header" style="" class="header align-items-stretch bg-joffroy-primary">
+					<!--begin::Container-->
+					<div class="container-fluid d-flex align-items-stretch justify-content-between">
+						<div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+							<div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
+								 id="kt_aside_mobile_toggle">
+                            <span class="svg-icon svg-icon-2x mt-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											 viewBox="0 0 24 24" fill="none">
+											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
+												  fill="black"/>
+											<path opacity="0.3"
+												  d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z"
+												  fill="black"/>
+										</svg>
+									</span>
+							</div>
+						</div>
+						<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+							<h5 class="m-0 text-white" data-lang="menu_main"></h5>
+						</div>
+						<!--begin::Wrapper-->
+						<div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+							<!--begin::Navbar-->
+							<div class="d-flex align-items-stretch" id="kt_header_nav">
+								<div class="header-menu align-items-stretch" data-kt-drawer="true"
+									 data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}"
+									 data-kt-drawer-overlay="true"
+									 data-kt-drawer-width="{default:'200px', '300px': '250px'}"
+									 data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle"
+									 data-kt-swapper="true" data-kt-swapper-mode="prepend"
+									 data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}">
+									<!--begin::Menu-->
+									<div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-400 fw-bold my-5 my-lg-0 align-items-stretch"
+										 id="#kt_header_menu" data-kt-menu="true">
+									</div>
+									<!--end::Menu-->
+								</div>
+							</div>
+							<!--end::Navbar-->
+							<!--begin::Topbar-->
+							<div class="d-flex align-items-stretch flex-shrink-0">
+								<!--begin::Toolbar wrapper-->
+								<div class="d-flex align-items-stretch flex-shrink-0">
+									<!--begin::User-->
+									<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+										<!--begin::Menu wrapper-->
+										<div class="cursor-pointer symbol symbol-30px symbol-md-40px d-flex" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+											<div class="me-2 text-white d-flex flex-column justify-content-center align-items-start">
+												<span id="spnNombreU" class="fw-bold"></span>
+												<span id="spnCorreoU" class="text-muted"></span>
+											</div>
+											<img src="assets/media/avatars/blank.png" alt="user"/>
+										</div>
+										<!--begin::Menu-->
+										<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px"
+											 data-kt-menu="true">
+											<div class="menu-item px-5">
+												<a href="perfil.html" class="menu-link px-5" data-lang="option_profile"></a>
+											</div>
+											<div class="menu-item px-5">
+												<a href="sing-in.html" class="menu-link px-5" data-lang="option_logout"></a>
+											</div>
+										</div>
+										<!--end::Menu-->
+										<!--end::Menu wrapper-->
+									</div>
+								</div>
+								<!--end::Toolbar wrapper-->
+							</div>
+							<!--end::Topbar-->
+						</div>
+						<!--end::Wrapper-->
+					</div>
+					<!--end::Container-->
+				</div>
+				<div class="container-fluid d-flex flex-column flex-column-fluid" id="kt_content">
+					<div class="toolbar" id="kt_toolbar">
+						<div id="kt_toolbar_container" class="container-fluid d-flex flex-stack">
+							<div data-kt-swapper="true" data-kt-swapper-mode="prepend"
+								data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}"
+								class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+								<!--begin::Title-->
+								<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">
+									<i class="bi bi-buildings me-2 fn-20px text-dark"></i>
+									<Traductor class="Suppliers_tr"> Suppliers</Traductor>
+								</h1>
+								<!--end::Title-->
+							</div>
+							<div class="d-flex align-items-center py-1">
+								<div class="me-3 w-200px">
+									<select id="sistema-lenguage" class="form-select form-select-sm">
+										<option></option>
+									</select>
+								</div>
+								<div class="w-200px bg-joffroy-primary form-control form-control-sm">
+								<span class="svg-icon svg-icon-5 svg-icon-white me-1 mb-0">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+												 fill="white" class="bi bi-calendar-event" viewBox="0 0 16 16">
+												<path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+												<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+											</svg>
+										</span>
+									<span id="sistema-fecha" class="text-white m-0"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post d-flex flex-column-fluid pt-5" id="kt_post">
+						<!--begin::Container-->
+						<div id="kt_content_container" class="container-fluid mx-0 px-0">
+							<div class="card mb-5 mb-xl-10">
+								<div class="card-body pt-9 pb-0" id="blockSectionInfo">
+									<div class="row">
+										<div class="col-sm-12 col-md-2 d-flex justify-content-center align-items-center">
+											<div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
+												<img src="assets/media/joffroy/edificio-de-oficinas.png" alt="image">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-10">
+											<div class="row">
+												<div class="col-sm-12 col-md-12">
+													<h1 class="mb-0 text-uppercase fw-bolder text-joffroy-primary" id="lbl_nombre_proveedor"></h1>
+													<p class="mb-0 text-uppercase text-muted" id="lbl_nombre_fiscal"></p>
+													<p id="lbl_proveedor_direccion"></p>
+													<div class="row">
+														<div class="col-sm-12 col-md-3">
+															<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
+																<div class="d-flex align-items-center">
+																	<p class="m-0 fs-4 text-joffroy-primary fw-bolder" id="lbl_fecha_registro"></p>
+																</div>
+																<div class="fs-6" data-lang="info_registration_date"></div>
+															</div>
+														</div>
+														<div class="col-sm-12 col-md-6 d-flex justify-content-between align-items-center">
+															<button type="button" class="btn btn-sm btn-joffroy-warning w-100 me-2" id="btn-redirect-info">
+																<span class="indicator-label" data-lang="info_btn_info"></span>
+															</button>
+
+															<button type="button" class="btn btn-sm btn-joffroy-primary w-100 me-2" id="btn-redirect-documents">
+																<span class="indicator-label" data-lang="info_btn_documentation"></span>
+															</button>
+
+															<button type="button" class="btn btn-sm btn-joffroy-warning w-100" id="btn-redirect-bill">
+																<span class="indicator-label" data-lang="info_btn_facturas"></span>
+															</button>
+														</div>
+														<div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
+															<div>
+																<label for="proveedor-progress" class="mb-2" data-lang="info_progress"></label>
+																<div class="progress w-100">
+																	<div id="proveedor-progress"
+																		 class="progress-bar bg-joffroy-primary progress-bar-striped progress-bar-animated"
+																		 role="progressbar" style="width: 0%;"
+																		 aria-valuenow="0" aria-valuemin="0"
+																		 aria-valuemax="100">0%
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-5 mb-xl-10">
+								<div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+									data-bs-target="#kt_account_profile_details" aria-expanded="true"
+									aria-controls="kt_account_profile_details">
+									<!--begin::Card title-->
+									<div class="card-title m-0">
+										<h3 class="fw-bolder m-0" data-lang="lbl_1"></h3>
+									</div>
+									<!--end::Card title-->
+								</div>
+								<div id="kt_account_profile_details" class="collapse show">
+									<!--begin::Form-->
+									<div id="kt_account_profile_details_form"
+										class="form fv-plugins-bootstrap5 fv-plugins-framework">
+										<!--begin::Card body-->
+										<div class="card-body border-top p-9" id="blockSection">
+											<!--begin::Alert-->
+											<div class="row mb-5">
+												<div class="col-sm-12 col-md-9">
+													<div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-10">
+                                            			<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+                                                <i class="bi bi-exclamation-triangle-fill text-dark"
+												   style="font-size: 25px;"></i>
+                                            </span>
+														<div class="d-flex flex-column pe-0 pe-sm-10">
+															<h4 class="fw-bold" data-lang="alert_information"></h4>
+															<p data-lang="data_info_label"></p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-3">
+													<span data-lang="state_title"></span>:
+													<ul class="list-group">
+														<li class="list-group-item">
+															<div>
+																<i class="bi bi-square-fill ms-2 text-success float-end"></i>
+																<span data-lang="state_1"></span>
+															</div>
+														</li>
+														<li class="list-group-item">
+															<div>
+																<i class="bi bi-square-fill ms-2 text-warning float-end"></i>
+																<span data-lang="state_2"></span>
+															</div>
+														</li>
+														<li class="list-group-item">
+															<div>
+																<i class="bi bi-square-fill ms-2 text-primary float-end"></i>
+																<span data-lang="state_3"></span>
+															</div>
+														</li>
+														<li class="list-group-item">
+															<div>
+																<i class="bi bi-square-fill ms-2 text-danger float-end"></i>
+																<span data-lang="state_4"></span>
+															</div>
+														</li>
+														<li class="list-group-item">
+															<div>
+																<i class="bi bi-square-fill ms-2 text-light border border-dark rounded-1 float-end"></i>
+																<span data-lang="state_5"></span>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<!--end::Alert-->
+											<div class="d-flex justify-content-between mb-7">
+												<div class="d-flex flex-wrap flex-stack pb-7 mt-6 w-100">
+													<!--begin::Title-->
+													<div class="d-flex flex-wrap align-items-center my-1">
+														<h3 class="fw-bolder me-5 my-1"><span data-lang="menu_counter"></span>: #<strong id="spnRecords"></strong></h3>
+													</div>
+													<!--end::Title-->
+													<!--begin::Controls-->
+													<div class="d-flex my-1">
+														<!--begin::Actions-->
+														<div class="d-flex me-3">
+															<label class="col-lg-3 col-form-label fw-bold fs-6">
+																<Traductor class="Search_tr"> Search</Traductor>
+															</label>
+															<input type="text" name="buscarCampos" id="buscarCampos"
+																   class="form-control form-control-lg form-control-solid  mr-3">
+														</div>
+														<div class="d-flex me-3">
+															<label class="col-lg-4 col-form-label fw-bold fs-6">
+																<Traductor class="Search_by_date_tr">Search by date</Traductor>
+															</label>
+															<input type="text" name="buscarFecha" id="buscarFecha"
+																   class="form-control form-control-lg form-control-solid mr-3 w-350px">
+														</div>
+														<div class="d-flex my-0">
+															<select id="sltEstados" class="form-select form-select-solid w-175px">
+																<option value=""></option>
+																<option value="1" class="Confirmed_state_tr">Accepted</option>
+																<option value="2" class="Under_review_state_tr">Under review</option>
+																<option value="3" class="pending_state_tr">Pending</option>
+																<option value="4" class="Rejected_state_tr">Rejected</option>
+															</select>
+														</div>
+														<!--end::Actions-->
+													</div>
+													<!--end::Controls-->
+												</div>
+												<div class="d-flex">
+													<!-- <select class="form-select form-select-solid w-150px me-3" data-control="select2" data-placeholder="Select an option">
+														<option value="0" data-select2-id="select2-data-18-iyvt">Sort by</option>
+														<option value="1">Ascending order</option>
+														<option value="2">Descending order</option>
+													</select>
+													<select class="form-select form-select-solid w-150px" data-control="select2" data-placeholder="Select an option">
+														<option value="0" data-select2-id="select2-data-21-pk39">Status</option>
+														<option value="1">In progress</option>
+														<option value="2">Confirmed</option>
+														<option value="3">Rejected</option>
+													</select> -->
+												</div>
+											</div>
+											<div id="MotrarDocumentos"></div>
+										</div>
+										<!--end::Card body-->
+										<input type="hidden">
+										<div></div>
+									</div>
+									<!--end::Form-->
+								</div>
+							</div>
+						</div>
+						<!--end::Container-->
+					</div>
+				</div>
+				<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+					<!--begin::Container-->
+					<div
+						class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+						<!--begin::Copyright-->
+						<div class="text-dark order-2 order-md-1">
+							<span class="text-muted fw-bold me-1">2023©</span>
+							<a href="https://www.joffroy.com/" target="_blank"
+								class="text-gray-800 text-hover-primary">Joffroy</a>
+						</div>
+						<!--end::Copyright-->
+						<!--begin::Menu-->
+
+						<!--end::Menu-->
+					</div>
+					<!--end::Container-->
+				</div>
+			</div>
+		</div>
+		<!--end::Page-->
+	</div>
+	<!--end::Root-->
+	<div class="modal fade" tabindex="-1" id="mdl-historial">
+		<div class="modal-dialog modal-dialog-centered modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"><i class="bi bi-search fa-lg text-dark"></i> <Traductor class="History_tr">Historia</Traductor></h5>
+				</div>
+				<div class="modal-body">
+					<div class="d-flex justify-content-end">
+						<div class="w-100 w-md-250px">
+							<select name="pendientes-filtro-estado"
+									id="pendientes-filtro-estado"
+									class="form-control form-control-sm form-control-solid me-3" style="width: 100%;">
+								<option value="all">Todos</option>
+							</select>
+						</div>
+						<input type="text" id="filtroHistorial" class="form-control form-control-sm form-control-solid w-100 w-md-250px ms-3" placeholder="Buscar">
+					</div>
+					<table id="historial-table" class="table align-middle table-striped table-row-bordered gy-5 gs-7">
+						<thead class="fw-bold fs-6 text-gray-800"></thead>
+						<tbody></tbody>
+					</table>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-joffroy-primary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" tabindex="-1" id="mdl-bitacora">
+		<div class="modal-dialog modal-dialog-centered modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"><i class="bi bi-search fa-lg text-dark"></i> <Traductor class="Logbook_tr">Bitácora</Traductor></h5>
+				</div>
+				<div class="modal-body">
+					<div class="timeline" id="mdl-bitacora-timeline"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-joffroy-primary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--begin::Modals-->
+	<!--begin::Modal - Agregar comentario-->
+	<div class="modal fade" id="mdl-comentario" tabindex="-1" aria-hidden="true">
+		<!--begin::Modal dialog-->
+		<div class="modal-dialog mw-650px modal-dialog-centered">
+			<!--begin::Modal content-->
+			<div class="modal-content">
+				<!--begin::Modal header-->
+				<div class="modal-header pb-0 border-0 justify-content-end">
+					<!--begin::Close-->
+					<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+						<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+						<span class="svg-icon svg-icon-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none">
+								<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+									transform="rotate(-45 6 17.3137)" fill="black" />
+								<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+									fill="black" />
+							</svg>
+						</span>
+						<!--end::Svg Icon-->
+					</div>
+					<!--end::Close-->
+				</div>
+				<!--begin::Modal header-->
+				<!--begin::Modal body-->
+				<div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+					<!--begin::Heading-->
+					<div class="text-center mb-6">
+						<!--begin::Title-->
+						<h1 class="mb-3">
+							<Traductor class="Add_comment_tr">Add comment</Traductor>
+						</h1>
+						<!--end::Title-->
+					</div>
+					<!--end::Heading-->
+
+					<div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-6 mt-6">
+						<!--begin::Icon-->
+						<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+							<img src="assets/media/icono2.svg" style="height: 25px" alt="">
+						</span>
+						<!--end::Icon-->
+
+						<!--begin::Wrapper-->
+						<div class="d-flex flex-column pe-0 pe-sm-10">
+							<!--begin::Title-->
+							<h4 class="fw-bold">
+								<Traductor class="Important_information_tr">Important information</Traductor>
+							</h4>
+							<!--end::Title-->
+							<!--begin::Content-->
+							<ul class="mb-0">
+								<li>
+									<Traductor class="Fill_in_all_the_fields_to_send_the_tr">Fill in all the fields to
+										send the</Traductor> <span class="link-primary fw-bolder">
+										<Traductor class="request_tr">request</Traductor>
+									</span>
+								</li>
+								<li>
+									<Traductor class="Fields_with_tr">Fields with</Traductor> <span
+										class="text-danger">*</span>
+									<Traductor class="are_required_tr">are required</Traductor>
+								</li>
+							</ul>
+							<!--end::Content-->
+						</div>
+						<!--end::Wrapper-->
+					</div>
+
+
+					<label for="emailaddress" class="form-label fs-6 fw-bolder mb-1">
+						<Traductor class="Comment_tr">Comment</Traductor><span class="text-danger">*</span>
+					</label>
+					<textarea class="form-control form-control-lg form-control-solid" placeholder="Enter a comment"
+						id="exampleFormControlTextarea1" rows="3"></textarea>
+
+					<!--begin::Notice-->
+					<div class="d-flex flex-stack mt-10 mb-6">
+						<!--begin::Label-->
+						<div class="me-5 fw-bold">
+							<label class="fs-6">
+								<Traductor class="Important_tr">Important</Traductor>
+							</label>
+							<div class="fs-7 text-muted">
+								<Traductor class="By_saving_the_comment_tr">By saving the comment</Traductor>,
+								<Traductor class="the_provider_will_be_able_to_see_it_on_their_profile_tr">the provider
+									will be able to see it on their profile</Traductor>. <Traductor
+									class="Verify_that_the_information_is_correct_tr">Verify that the information is
+									correct</Traductor>.
+							</div>
+						</div>
+						<!--end::Label-->
+					</div>
+
+					<div class="text-end">
+						<!--<button type="button" class="btn btn-primary" data-bs-dismiss="modal">-->
+						<button type="button" class="btn btn-primary" id="btnSolEnviar" onclick="envioSolicitud()">
+							<i class="bi bi-chat-left-text me-2"></i>
+							<Traductor class="Add_comment_tr">Add comment</Traductor>
+						</button>
+					</div>
+					<!--end::Notice-->
+				</div>
+				<!--end::Modal body-->
+			</div>
+			<!--end::Modal content-->
+		</div>
+		<!--end::Modal dialog-->
+	</div>
+	<!--end::Modal - Agregar comentario-->
+	<div class="modal fade" id="mdl-documento-01" tabindex="-1" aria-hidden="true">
+		<!--begin::Modal dialog-->
+		<div class="modal-dialog modal-fullscreen modal-dialog-centered" style="padding: 15px;">
+			<!--begin::Modal content-->
+			<div class="modal-content rounded">
+				<!--begin::Modal header-->
+				<div class="modal-header pb-0 border-0 justify-content-end">
+					<!--begin::Close-->
+					<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+						<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+						<span class="svg-icon svg-icon-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none">
+								<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+									transform="rotate(-45 6 17.3137)" fill="black" />
+								<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+									fill="black" />
+							</svg>
+						</span>
+						<!--end::Svg Icon-->
+					</div>
+					<!--end::Close-->
+				</div>
+				<!--begin::Modal header-->
+				<!--begin::Modal body-->
+				<div class="modal-body scroll-y pt-0 position-relative">
+					<!--begin::Heading-->
+					<div class="text-center mb-6">
+						<!--begin::Title-->
+						<h1 class="mb-3"><Traductor class="History_tr">History</Traductor></h1>
+						<!--end::Title-->
+					</div>
+					<!--end::Heading-->
+
+					<div class="row">
+						<div class="d-flex justify-content-between mb-7">
+							<div class="">
+								<h3 class="fw-bolder me-5 my-1"><span id="spnRecordsHistorial"></span> <Traductor class="Records_tr">Records </Traductor>
+									<!-- <span class="text-gray-400 fs-6">Sorted in <span id="spnSortedHistorial">ascending
+											↓</span> order</span> -->
+										</h3>
+							</div>
+							<div class="d-flex">
+								<!-- <select class="form-select form-select-solid w-150px me-3" data-control="select2"
+									data-placeholder="Select an option">
+									<option value="0" data-select2-id="select2-data-18-iyvt"><Traductor class="Sort_by_tr">Sort by</Traductor></option>
+									<option value="1"><Traductor class="Ascending_order_tr">Ascending order</Traductor></option>
+									<option value="2"><Traductor class="Descending_order_tr">Descending order</Traductor></option>
+								</select>
+								<select class="form-select form-select-solid w-150px" data-control="select2"
+									data-placeholder="Select an option">
+									<option value="0" data-select2-id="select2-data-21-pk39"><Traductor class="Status_tr">Status</Traductor></option>
+									<option value="1"><Traductor class="In_progress_tr">In progress</Traductor></option>
+									<option value="2"><Traductor class="Confirmed_tr">Confirmed</Traductor></option>
+									<option value="3"><Traductor class="Rejected_tr">Rejected</Traductor></option>
+								</select> -->
+								
+							</div>
+						</div>
+						<div class="table-responsive bg-white">
+							<table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
+								<!--begin::Table head-->
+								<thead>
+									<tr class="fw-bolder text-muted">
+										<th class="min-w-150px"><Traductor class="Document_tr">Document</Traductor></th>
+										<th class="min-w-140px"><Traductor class="Date_tr">Date</Traductor></th>
+										<th class="min-w-140px text-center"><Traductor class="Status_tr">Status</Traductor></th>
+										<th class="min-w-140px"><Traductor class="Comment_tr">Comment</Traductor></th>
+										<!-- <th class="min-w-100px text-end"><Traductor class="Activities_tr">Activities</Traductor></th> -->
+									</tr>
+								</thead>
+								<!--end::Table head-->
+								<!--begin::Table body-->
+								<tbody id="CargarTabla_">
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="d-flex justify-content-start flex-column">
+													<a href="#"
+														class="text-dark fw-bolder text-hover-primary fs-6">Documento</a>
+												</div>
+											</div>
+										</td>
+
+										<td>
+											<a href="#" class="text-dark fw-bolder d-block fs-6">00/00/0000</a>
+										</td>
+										<td class="text-center">
+											<span class="badge badge-light-primary fs-8 fw-bolder">En proceso</span>
+										</td>
+										<td>
+										</td>
+										<td>
+											<div class="d-flex justify-content-end flex-shrink-0">
+												<a href="#"
+													class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"
+													onclick="a()">
+													<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
+													<span class="svg-icon svg-icon-3">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+															viewBox="0 0 24 24" fill="none">
+															<path opacity="0.3"
+																d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z"
+																fill="black"></path>
+															<path
+																d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z"
+																fill="black"></path>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</a>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="d-flex justify-content-start flex-column">
+													<a href="#"
+														class="text-dark fw-bolder text-hover-primary fs-6">Documento</a>
+												</div>
+											</div>
+										</td>
+
+										<td>
+											<a href="#" class="text-dark fw-bolder d-block fs-6">00/00/0000</a>
+										</td>
+										<td class="text-center">
+											<span class="badge badge-light-primary fs-8 fw-bolder">En proceso</span>
+										</td>
+										<td>
+										</td>
+
+										<td>
+											<div class="d-flex justify-content-end flex-shrink-0">
+												<a href="#"
+													class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
+													<!--begin::Svg Icon | path: icons/duotune/art/art005.svg-->
+													<span class="svg-icon svg-icon-3">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+															viewBox="0 0 24 24" fill="none">
+															<path opacity="0.3"
+																d="M21.4 8.35303L19.241 10.511L13.485 4.755L15.643 2.59595C16.0248 2.21423 16.5426 1.99988 17.0825 1.99988C17.6224 1.99988 18.1402 2.21423 18.522 2.59595L21.4 5.474C21.7817 5.85581 21.9962 6.37355 21.9962 6.91345C21.9962 7.45335 21.7817 7.97122 21.4 8.35303ZM3.68699 21.932L9.88699 19.865L4.13099 14.109L2.06399 20.309C1.98815 20.5354 1.97703 20.7787 2.03189 21.0111C2.08674 21.2436 2.2054 21.4561 2.37449 21.6248C2.54359 21.7934 2.75641 21.9115 2.989 21.9658C3.22158 22.0201 3.4647 22.0084 3.69099 21.932H3.68699Z"
+																fill="black"></path>
+															<path
+																d="M5.574 21.3L3.692 21.928C3.46591 22.0032 3.22334 22.0141 2.99144 21.9594C2.75954 21.9046 2.54744 21.7864 2.3789 21.6179C2.21036 21.4495 2.09202 21.2375 2.03711 21.0056C1.9822 20.7737 1.99289 20.5312 2.06799 20.3051L2.696 18.422L5.574 21.3ZM4.13499 14.105L9.891 19.861L19.245 10.507L13.489 4.75098L4.13499 14.105Z"
+																fill="black"></path>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</a>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+								<!--end::Table body-->
+							</table>
+						</div>
+					</div>
+				</div>
+				<!--end::Modal body-->
+				<!--
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+					-->
+			</div>
+			<!--end::Modal content-->
+		</div>
+		<!--end::Modal dialog-->
+	</div>
+	<div class="modal fade" id="mdl-documento-02" tabindex="-1" aria-hidden="true">
+		<!--begin::Modal dialog-->
+		<div class="modal-dialog modal-fullscreen modal-dialog-centered" style="padding: 15px;">
+			<!--begin::Modal content-->
+			<div class="modal-content rounded">
+				<!--begin::Modal header-->
+				<div class="modal-header pb-0 border-0 justify-content-end">
+					<!--begin::Close-->
+					<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+						<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+						<span class="svg-icon svg-icon-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none">
+								<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+									transform="rotate(-45 6 17.3137)" fill="black" />
+								<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+									fill="black" />
+							</svg>
+						</span>
+						<!--end::Svg Icon-->
+					</div>
+					<!--end::Close-->
+				</div>
+				<!--begin::Modal header-->
+				<!--begin::Modal body-->
+				<div class="modal-body scroll-y pt-0 position-relative">
+					<!--begin::Heading-->
+					<div class="text-center mb-6">
+						<!--begin::Title-->
+						<h1 class="mb-3"><Traductor class="Log_tr">Log</Traductor></h1>
+						<!--end::Title-->
+					</div>
+					<!--end::Heading-->
+
+					<div class="row">
+						<div class="d-flex justify-content-between mb-7">
+							<div class="">
+								<h3 class="fw-bolder me-5 my-1"><span id="spnRecordsBitacora"></span> <Traductor class="Records_tr">Records</Traductor>
+									<!-- <span class="text-gray-400 fs-6"><Traductor class="Sorted_in_tr">Sorted in</Traductor> <span id="spnSortedBitacora">ascending
+											↓</span> order</span> -->
+										</h3>
+							</div>
+							<div class="d-flex">
+								<!-- <select class="form-select form-select-solid w-150px me-3" data-control="select2"
+									data-placeholder="Select an option">
+									<option value="0" data-select2-id="select2-data-18-iyvt"><Traductor class="Sort_by_tr">Sort by</Traductor></option>
+									<option value="1"><Traductor class="Ascending_order_tr">Ascending order</Traductor></option>
+									<option value="2"><Traductor class="Descending_order_tr">Descending order</Traductor></option>
+								</select>
+								<select class="form-select form-select-solid w-150px" data-control="select2"
+									data-placeholder="Select an option">
+									<option value="0" data-select2-id="select2-data-21-pk39"><Traductor class="Status_tr">Status</Traductor></option>
+									<option value="1"><Traductor class="In_progress_tr">In progress</Traductor></option>
+									<option value="2"><Traductor class="Confirmed_tr">Confirmed</Traductor></option>
+									<option value="3"><Traductor class="Rejected_tr">Rejected</Traductor></option>
+								</select> -->
+							</div>
+						</div>
+
+						<!--begin::Timeline-->
+						<div class="timeline w-100 bg-white p-6" id="cargarTimeLine_">
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/coding/cod008.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none">
+												<path
+													d="M11.2166 8.50002L10.5166 7.80007C10.1166 7.40007 10.1166 6.80005 10.5166 6.40005L13.4166 3.50002C15.5166 1.40002 18.9166 1.50005 20.8166 3.90005C22.5166 5.90005 22.2166 8.90007 20.3166 10.8001L17.5166 13.6C17.1166 14 16.5166 14 16.1166 13.6L15.4166 12.9C15.0166 12.5 15.0166 11.9 15.4166 11.5L18.3166 8.6C19.2166 7.7 19.1166 6.30002 18.0166 5.50002C17.2166 4.90002 16.0166 5.10007 15.3166 5.80007L12.4166 8.69997C12.2166 8.89997 11.6166 8.90002 11.2166 8.50002ZM11.2166 15.6L8.51659 18.3001C7.81659 19.0001 6.71658 19.2 5.81658 18.6C4.81658 17.9 4.71659 16.4 5.51659 15.5L8.31658 12.7C8.71658 12.3 8.71658 11.7001 8.31658 11.3001L7.6166 10.6C7.2166 10.2 6.6166 10.2 6.2166 10.6L3.6166 13.2C1.7166 15.1 1.4166 18.1 3.1166 20.1C5.0166 22.4 8.51659 22.5 10.5166 20.5L13.3166 17.7C13.7166 17.3 13.7166 16.7001 13.3166 16.3001L12.6166 15.6C12.3166 15.2 11.6166 15.2 11.2166 15.6Z"
+													fill="black" />
+												<path opacity="0.3"
+													d="M5.0166 9L2.81659 8.40002C2.31659 8.30002 2.0166 7.79995 2.1166 7.19995L2.31659 5.90002C2.41659 5.20002 3.21659 4.89995 3.81659 5.19995L6.0166 6.40002C6.4166 6.60002 6.6166 7.09998 6.5166 7.59998L6.31659 8.30005C6.11659 8.80005 5.5166 9.1 5.0166 9ZM8.41659 5.69995H8.6166C9.1166 5.69995 9.5166 5.30005 9.5166 4.80005L9.6166 3.09998C9.6166 2.49998 9.2166 2 8.5166 2H7.81659C7.21659 2 6.71659 2.59995 6.91659 3.19995L7.31659 4.90002C7.41659 5.40002 7.91659 5.69995 8.41659 5.69995ZM14.6166 18.2L15.1166 21.3C15.2166 21.8 15.7166 22.2 16.2166 22L17.6166 21.6C18.1166 21.4 18.4166 20.8 18.1166 20.3L16.7166 17.5C16.5166 17.1 16.1166 16.9 15.7166 17L15.2166 17.1C14.8166 17.3 14.5166 17.7 14.6166 18.2ZM18.4166 16.3L19.8166 17.2C20.2166 17.5 20.8166 17.3 21.0166 16.8L21.3166 15.9C21.5166 15.4 21.1166 14.8 20.5166 14.8H18.8166C18.0166 14.8 17.7166 15.9 18.4166 16.3Z"
+													fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="mb-5 pe-3">
+										<!--begin::Title-->
+										<a href="#" class="fs-5 fw-bold text-gray-800 text-hover-primary mb-2">1
+											document has been updated</a>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">
+												Sent: 07/06/2023 10:30 PM
+												<br>
+												By: Jorge Alan Garcia Carmona
+											</div>
+											<!--end::Info-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<div
+											class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-5">
+											<!--begin::Item-->
+											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
+												<!--begin::Icon-->
+												<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
+												<!--end::Icon-->
+												<!--begin::Info-->
+												<div class="ms-1 fw-bold">
+													<!--begin::Desc-->
+													<a href="#" class="fs-6 text-hover-primary fw-bolder">Carta de no
+														adeudo</a>
+													<!--end::Desc-->
+													<!--begin::Number-->
+													<div class="text-gray-400">1.9mb</div>
+													<!--end::Number-->
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px me-4">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/communication/com003.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3"
+													d="M2 4V16C2 16.6 2.4 17 3 17H13L16.6 20.6C17.1 21.1 18 20.8 18 20V17H21C21.6 17 22 16.6 22 16V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4Z"
+													fill="black" />
+												<path
+													d="M18 9H6C5.4 9 5 8.6 5 8C5 7.4 5.4 7 6 7H18C18.6 7 19 7.4 19 8C19 8.6 18.6 9 18 9ZM16 12C16 11.4 15.6 11 15 11H6C5.4 11 5 11.4 5 12C5 12.6 5.4 13 6 13H15C15.6 13 16 12.6 16 12Z"
+													fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">Document Confirmation</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">
+												Sent: 07/06/2023 10:30 PM
+											</div>
+											<!--end::Info-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<!--begin::Record-->
+										<div
+											class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5">
+											<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
+											<!--begin::Title-->
+											<a href="#"
+												class="fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px">Carta
+												de no adeudo</a>
+											<!--end::Title-->
+											<!--begin::Label-->
+											<div class="min-w-175px pe-2">
+												<span class="badge badge-light text-muted">Confirmed by: Jessica
+													Angeles</span>
+											</div>
+											<!--end::Label-->
+											<!--begin::Users-->
+											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
+											</div>
+											<!--end::Users-->
+											<!--begin::Progress-->
+											<div class="min-w-125px pe-2">
+												<span class="badge badge-light-success">Confirmed</span>
+											</div>
+											<!--end::Progress-->
+											<!--begin::Action-->
+											<a href="#" class="btn btn-sm btn-light btn-active-light-primary">View</a>
+											<!--end::Action-->
+										</div>
+										<!--end::Record-->
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px me-4">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/communication/com003.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none">
+												<path opacity="0.3"
+													d="M2 4V16C2 16.6 2.4 17 3 17H13L16.6 20.6C17.1 21.1 18 20.8 18 20V17H21C21.6 17 22 16.6 22 16V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4Z"
+													fill="black" />
+												<path
+													d="M18 9H6C5.4 9 5 8.6 5 8C5 7.4 5.4 7 6 7H18C18.6 7 19 7.4 19 8C19 8.6 18.6 9 18 9ZM16 12C16 11.4 15.6 11 15 11H6C5.4 11 5 11.4 5 12C5 12.6 5.4 13 6 13H15C15.6 13 16 12.6 16 12Z"
+													fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="pe-3 mb-5">
+										<!--begin::Title-->
+										<div class="fs-5 fw-bold mb-2">Document Rejection</div>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">
+												Sent: 07/06/2023 10:30 PM
+											</div>
+											<!--end::Info-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<!--begin::Record-->
+										<div
+											class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5">
+											<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
+											<!--begin::Title-->
+											<a href="#"
+												class="fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px">Carta
+												de no antecedente penales</a>
+											<!--end::Title-->
+											<!--begin::Label-->
+											<div class="min-w-175px pe-2">
+												<span class="badge badge-light text-muted">Rejected by: Jessica
+													Angeles</span>
+											</div>
+											<!--end::Label-->
+											<!--begin::Users-->
+											<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
+												<span class="badge badge-light text-muted">Comment: documento
+													incorrecto</span>
+											</div>
+
+											<div class="min-w-125px pe-2">
+												<span class="badge badge-light-danger">Rejected</span>
+											</div>
+											<!--end::Progress-->
+											<!--begin::Action-->
+											<a href="#" class="btn btn-sm btn-light btn-active-light-primary">View</a>
+											<!--end::Action-->
+										</div>
+										<!--end::Record-->
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+							<!--begin::Timeline item-->
+							<div class="timeline-item">
+								<!--begin::Timeline line-->
+								<div class="timeline-line w-40px"></div>
+								<!--end::Timeline line-->
+								<!--begin::Timeline icon-->
+								<div class="timeline-icon symbol symbol-circle symbol-40px">
+									<div class="symbol-label bg-light">
+										<!--begin::Svg Icon | path: icons/duotune/coding/cod008.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-gray-500">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+												viewBox="0 0 24 24" fill="none">
+												<path
+													d="M11.2166 8.50002L10.5166 7.80007C10.1166 7.40007 10.1166 6.80005 10.5166 6.40005L13.4166 3.50002C15.5166 1.40002 18.9166 1.50005 20.8166 3.90005C22.5166 5.90005 22.2166 8.90007 20.3166 10.8001L17.5166 13.6C17.1166 14 16.5166 14 16.1166 13.6L15.4166 12.9C15.0166 12.5 15.0166 11.9 15.4166 11.5L18.3166 8.6C19.2166 7.7 19.1166 6.30002 18.0166 5.50002C17.2166 4.90002 16.0166 5.10007 15.3166 5.80007L12.4166 8.69997C12.2166 8.89997 11.6166 8.90002 11.2166 8.50002ZM11.2166 15.6L8.51659 18.3001C7.81659 19.0001 6.71658 19.2 5.81658 18.6C4.81658 17.9 4.71659 16.4 5.51659 15.5L8.31658 12.7C8.71658 12.3 8.71658 11.7001 8.31658 11.3001L7.6166 10.6C7.2166 10.2 6.6166 10.2 6.2166 10.6L3.6166 13.2C1.7166 15.1 1.4166 18.1 3.1166 20.1C5.0166 22.4 8.51659 22.5 10.5166 20.5L13.3166 17.7C13.7166 17.3 13.7166 16.7001 13.3166 16.3001L12.6166 15.6C12.3166 15.2 11.6166 15.2 11.2166 15.6Z"
+													fill="black" />
+												<path opacity="0.3"
+													d="M5.0166 9L2.81659 8.40002C2.31659 8.30002 2.0166 7.79995 2.1166 7.19995L2.31659 5.90002C2.41659 5.20002 3.21659 4.89995 3.81659 5.19995L6.0166 6.40002C6.4166 6.60002 6.6166 7.09998 6.5166 7.59998L6.31659 8.30005C6.11659 8.80005 5.5166 9.1 5.0166 9ZM8.41659 5.69995H8.6166C9.1166 5.69995 9.5166 5.30005 9.5166 4.80005L9.6166 3.09998C9.6166 2.49998 9.2166 2 8.5166 2H7.81659C7.21659 2 6.71659 2.59995 6.91659 3.19995L7.31659 4.90002C7.41659 5.40002 7.91659 5.69995 8.41659 5.69995ZM14.6166 18.2L15.1166 21.3C15.2166 21.8 15.7166 22.2 16.2166 22L17.6166 21.6C18.1166 21.4 18.4166 20.8 18.1166 20.3L16.7166 17.5C16.5166 17.1 16.1166 16.9 15.7166 17L15.2166 17.1C14.8166 17.3 14.5166 17.7 14.6166 18.2ZM18.4166 16.3L19.8166 17.2C20.2166 17.5 20.8166 17.3 21.0166 16.8L21.3166 15.9C21.5166 15.4 21.1166 14.8 20.5166 14.8H18.8166C18.0166 14.8 17.7166 15.9 18.4166 16.3Z"
+													fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</div>
+								</div>
+								<!--end::Timeline icon-->
+								<!--begin::Timeline content-->
+								<div class="timeline-content mb-10 mt-n1">
+									<!--begin::Timeline heading-->
+									<div class="mb-5 pe-3">
+										<!--begin::Title-->
+										<a href="#" class="fs-5 fw-bold text-gray-800 text-hover-primary mb-2">1
+											document has been updated</a>
+										<!--end::Title-->
+										<!--begin::Description-->
+										<div class="d-flex align-items-center mt-1 fs-6">
+											<!--begin::Info-->
+											<div class="text-muted me-2 fs-7">
+												Sent: 07/06/2023 10:30 PM
+												<br>
+												By: Jorge Alan Garcia Carmona
+											</div>
+											<!--end::Info-->
+										</div>
+										<!--end::Description-->
+									</div>
+									<!--end::Timeline heading-->
+									<!--begin::Timeline details-->
+									<div class="overflow-auto pb-5">
+										<div
+											class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-700px p-5">
+											<!--begin::Item-->
+											<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
+												<!--begin::Icon-->
+												<img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg" />
+												<!--end::Icon-->
+												<!--begin::Info-->
+												<div class="ms-1 fw-bold">
+													<!--begin::Desc-->
+													<a href="#" class="fs-6 text-hover-primary fw-bolder">Carta de no
+														adeudo</a>
+													<!--end::Desc-->
+													<!--begin::Number-->
+													<div class="text-gray-400">1.9mb</div>
+													<!--end::Number-->
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--end::Timeline details-->
+								</div>
+								<!--end::Timeline content-->
+							</div>
+							<!--end::Timeline item-->
+						</div>
+						<!--end::Timeline-->
+					</div>
+				</div>
+				<!--end::Modal body-->
+				<!--
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+					-->
+			</div>
+			<!--end::Modal content-->
+		</div>
+		<!--end::Modal dialog-->
+	</div>
+	<div class="modal fade" id="mdl-documento-03" tabindex="-1" aria-hidden="true">
+		<!--begin::Modal dialog-->
+		<div class="modal-dialog modal-fullscreen modal-dialog-centered" style="padding: 15px;">
+			<!--begin::Modal content-->
+			<div class="modal-content rounded">
+				<!--begin::Modal header-->
+				<div class="modal-header pb-0 border-0 justify-content-end">
+					<!--begin::Close-->
+					<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+						<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+						<span class="svg-icon svg-icon-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none">
+								<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+									transform="rotate(-45 6 17.3137)" fill="black" />
+								<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+									fill="black" />
+							</svg>
+						</span>
+						<!--end::Svg Icon-->
+					</div>
+					<!--end::Close-->
+				</div>
+				<div class="modal-body scroll-y pt-0 position-relative">
+					<!--begin::Heading-->
+					<div class="text-center mb-6">
+						<!--begin::Title-->
+						<h1 class="mb-3">View document</h1>
+						<!--end::Title-->
+					</div>
+					<!--end::Heading-->
+
+					<div class="row h-100">
+						<div class="col-lg-12 h-100">
+							<div class="row h-100">
+								<div class="col-lg-3">
+									<div class="d-flex flex-stack">
+										<div class="d-flex w-100">
+											<img src="assets/media/svg/files/pdf.svg" class="w-30px me-6"
+												style="height: 37.7px;" alt="">
+											<div class="d-flex flex-column">
+												<a href="assets/media/pdf-prueba.pdf" target="_blank"
+													class="fs-5 text-dark text-hover-primary fw-bolder">
+													<muestra id="titulo_documento_modal"> ID Oficial </muestra>
+												</a>
+												<div class="fs-6 fw-bold text-muted">
+													<Traductor class="Status_tr">Status</Traductor>: <span
+														class="text-primary">
+														<span id="MostrarEstado">Awaiting confirmation</span>
+													</span>
+													<br>
+													<Traductor class="Received_time_tr">Received time</Traductor>: <span
+														class="text-dark">
+														<span id="MostrarDiasQueFueRecibido" class="fw-normal"> </span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="separator separator-dashed my-5"></div>
+									<div id="OcultarComentario">
+										<div
+											class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-6 mt-6">
+											<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+												<img src="assets/media/icono2.svg" style="height: 25px" alt="">
+											</span>
+											<div class="d-flex flex-column pe-0 pe-sm-10">
+												<h4 class="fw-bold">Important information</h4>
+												<ul class="mb-0">
+													<li>Fill in all the fields to send the <span
+															class="link-primary fw-bolder">request</span></li>
+													<li>Fields with <span class="text-danger">*</span> are required</li>
+												</ul>
+											</div>
+										</div>
+
+
+										<label for="comentario_document" class="form-label fs-6 fw-bolder mb-1">
+											<Traductor class="Comment_tr">Comment</Traductor>
+										</label>
+										<textarea class="form-control form-control-lg form-control-solid mb-6"
+											id="comentario_document" placeholder="Enter a comment" rows="3"></textarea>
+
+										<button id="btnDeclined" type="button" class="btn btn-danger w-100 mb-2"
+											onclick="registrarEstadoDeDocumento('Decline')">
+											<Traductor class="Decline_tr">Decline</Traductor>
+										</button>
+										<button id="btnAccepted" type="button" class="btn btn-primary w-100"
+											onclick="registrarEstadoDeDocumento('Accept')">
+											<Traductor class="Accept_tr">Accept</Traductor>
+										</button>
+									</div>
+								</div>
+								<div class="col-lg-9 h-100">
+									<iframe id="iframe_muestra_doc" src="" frameborder="0" class="w-100 h-100 rounded"
+										style="background-color: #f5f8fa;"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end::Modal content-->
+		</div>
+		<!--end::Modal dialog-->
+	</div>
+	<div class="modal fade" id="mdl-documento-04" tabindex="-1" aria-hidden="true">
+		<!--begin::Modal dialog-->
+		<div class="modal-dialog modal-fullscreen modal-dialog-centered" style="padding: 15px;">
+			<!--begin::Modal content-->
+			<div class="modal-content rounded">
+				<!--begin::Modal header-->
+				<div class="modal-header pb-0 border-0 justify-content-end">
+					<!--begin::Close-->
+					<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+						<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+						<span class="svg-icon svg-icon-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								fill="none">
+								<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+									transform="rotate(-45 6 17.3137)" fill="black" />
+								<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+									fill="black" />
+							</svg>
+						</span>
+						<!--end::Svg Icon-->
+					</div>
+					<!--end::Close-->
+				</div>
+				<!--begin::Modal header-->
+				<!--begin::Modal body-->
+				<div class="modal-body scroll-y pt-0 position-relative">
+					
+					<iframe src="" id="MostrarPdg_historial" frameborder="0" class="w-100 h-100 rounded"
+					style="background-color: #f5f8fa;"></iframe>
+					
+				</div>
+				<!--end::Modal body-->
+				<!--
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+					-->
+			</div>
+			<!--end::Modal content-->
+		</div>
+		<!--end::Modal dialog-->
+	</div>
+
+	<div class="modal fade" id="mdl-documento-05" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen modal-dialog-centered rounded-0">
+			<div class="modal-content rounded-0">
+				<div class="modal-header">
+					<h1 class="modal-title"><i class="bi bi-search fa-lg text-dark"></i> <span data-lang="modal_document_3_title"></span></h1>
+					<div class="btn btn-icon btn-sm btn-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
+						<span class="svg-icon svg-icon-2x"><i class="bi bi-x"></i></span>
+					</div>
+				</div>
+				<div class="modal-body scroll-y py-2" id="blockDocument">
+					<div class="row h-100">
+						<div class="col-lg-12 h-100">
+							<div class="row h-100">
+								<div class="col-lg-3 bg-light-dark rounded-2">
+									<div class="d-flex flex-stack py-7 mt-2">
+										<div class="d-flex w-100">
+											<img src="assets/media/svg/files/pdf.svg" class="w-30px me-6"
+												 style="height: 37.7px;" alt="">
+											<div class="d-flex flex-column">
+												<a href="#" target="_blank" class="fs-5 text-dark fw-bolder">
+													<muestra id="document-title"></muestra>
+												</a>
+												<div class="fs-6 fw-bold text-dark">
+													<span data-lang="modal_document_3_status"></span>: <span id="document-status"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="separator separator-dashed my-5"></div>
+									<div>
+										<div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-6 mt-6">
+											<span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+													<img src="assets/media/icono2.svg" style="height: 25px" alt="">
+												</span>
+											<div class="d-flex flex-column pe-0 pe-sm-10">
+												<h4 class="fw-bold" data-lang="alert_title"></h4>
+												<ul class="mb-0">
+													<li><span data-lang="alert_li_1_1"></span> <span class="text-primary fw-bolder" data-lang="alert_li_1_2"></span></li>
+													<li><span data-lang="alert_li_2_1"></span> <span class="text-danger">*</span> <span data-lang="alert_li_2_2"></span></li>
+												</ul>
+											</div>
+										</div>
+										<form id="frmSubirDoc" class="form" enctype="multipart/form-data">
+											<div class="fv-row mb-3" id="fileInputState">
+												<label class="form-label fs-6 fw-bolder required" data-lang="modal_document_3_file"></label>
+												<input id="fileInput" name="fileInput" class="form-control form-control-lg form-control-solid"
+													   type="file" accept="application/pdf">
+											</div>
+											<div class="row mb-5">
+												<div class="col-sm-12 col-md-6">
+													<input id="fechaEmision" name="fechaEmision" data-lang="issue_date" class="form-control form-control-lg form-control-solid" type="text">
+												</div>
+												<div class="col-sm-12 col-md-6">
+													<div class="fv-row">
+														<input id="fechaVence" name="fechaVence" data-lang="expire_date" class="form-control form-control-lg form-control-solid" type="text">
+													</div>
+												</div>
+											</div>
+											<p id="resultado"></p>
+											<button id="btnSubirDoc" type="submit" class="btn btn-joffroy-primary btn-sm w-100 mb-3">
+												<span class="indicator-label" data-lang="modal_document_3_upload"></span>
+												<span class="indicator-progress"><span data-lang="modal_document_3_upload"></span><span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+											</button>
+											<button type="button" class="btn btn-light w-100" data-bs-dismiss="modal" data-lang="button_close"></button>
+										</form>
+									</div>
+								</div>
+								<div class="col-lg-9 h-90">
+									<div id="mostrar-documento-no" class="bg-light" style="height: 90%;">
+										<div class="h-100 d-flex justify-content-center align-items-center">
+											<h1 class="display-6 text-muted fw-normal" data-lang="modal_document_title"></h1>
+										</div>
+									</div>
+									<iframe id="mostrar-documento" src="" frameborder="0" class="w-100 rounded" style="background-color: #f5f8fa; height: 90%; display: none;"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--end::Modals-->
+
+	<!--begin::Scrolltop-->
+	<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+		<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
+		<span class="svg-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)"
+					fill="black" />
+				<path
+					d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z"
+					fill="black" />
+			</svg>
+		</span>
+		<!--end::Svg Icon-->
+	</div>
+	<!--end::Scrolltop-->
+	<!--end::Main-->
+	<script>
+		var hostUrl = "assets/";
+	</script>
+	<!--begin::Javascript-->
+	<!--begin::Global Javascript Bundle(used by all pages)-->
+	<script src="assets/plugins/global/plugins.bundle.js"></script>
+	<script src="assets/js/scripts.bundle.js"></script>
+	<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+
+	<script src="assets/js/function/initialization.js"></script>
+	<script src="assets/js/function/users.js"></script>
+<!--	<script src="assets/js/function/dates.js"></script>-->
+<!--	<script>
+		printFecha();
+		printUsuario(1);
+	</script>
+
+	<script>
+		let identificador;
+
+		// Obtener la URL actual
+		var url = new URL(window.location.href);
+
+		// Obtener los parámetros de la URL
+		var params = new URLSearchParams(url.search);
+
+		// Obtener el valor de un parámetro específico
+		var parametro = params.get('identificador');
+
+		console.log(parametro)
+		//Que me treaiga la informacion para actualizar
+		if (parametro != null) {
+
+			identificador = parametro;
+		}
+
+		// Obtener los elementos <a> por su ID
+		var informacionCambioDeUbicacion = document.getElementById('informacion_cambioDeUbicacion');
+		var proveedoresCambioDeUbicacion = document.getElementById('proveedores_cambioDeUbicacion');
+		var proveedoresContCambioDeUbicacion = document.getElementById('proveedoresCont_cambioDeUbicacion');
+		var proveedoresBillCambioDeUbicacion = document.getElementById('proveedoresBill_cambioDeUbicacion');
+
+		// Modificar el atributo href de cada elemento
+		informacionCambioDeUbicacion.href += '?identificador=' + identificador;
+		proveedoresCambioDeUbicacion.href += '?identificador=' + identificador;
+		// proveedoresContCambioDeUbicacion.href += '?identificador='+identificador;
+		// proveedoresBillCambioDeUbicacion.href += '?identificador='+identificador;
+	</script>-->
+	<script src="assets/js/traductor/proveedores-docu-translate.js"></script>
+	<script src="assets/js/pages/proveedores-docu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.603mm"
+   height="62.136002mm"
+   viewBox="0 0 190.603 62.136002"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="envio-correo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75098906"
+     inkscape:cx="316.9154"
+     inkscape:cy="562.59142"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><g
+       style="fill:#031832;fill-opacity:1"
+       id="g173"
+       transform="matrix(5.1779737,0,0,5.1779737,118.1113,-10.355947)"><path
+         d="m 3,14 c 0,0 -1,0 -1,-1 0,-1 1,-4 6,-4 5,0 6,3 6,4 0,1 -1,1 -1,1 z M 8,8 A 3,3 0 1 0 8,2 3,3 0 0 0 8,8 Z"
+         id="path164"
+         style="fill:#031832;fill-opacity:1" /></g><g
+       style="fill:#132cc9;fill-opacity:1"
+       id="g192"
+       transform="matrix(3.3723687,0,0,3.3723687,0,4.088891)"><path
+         d="M 0.05,3.555 A 2,2 0 0 1 2,2 h 12 a 2,2 0 0 1 1.95,1.555 L 8,8.414 Z M 0,4.697 v 7.104 L 5.803,8.243 Z M 6.761,8.83 0.191,12.857 A 2,2 0 0 0 2,14 h 12 a 2,2 0 0 0 1.808,-1.144 L 9.238,8.829 8,9.586 6.761,8.829 Z M 10.197,8.244 16,11.801 V 4.697 l -5.803,3.546 z"
+         id="path183"
+         style="fill:#132cc9;fill-opacity:1" /></g><g
+       style="fill:currentColor"
+       id="g1497"
+       transform="matrix(3.0829088,0,0,3.0829088,66.547927,6.404572)"><path
+         fill-rule="evenodd"
+         d="M 1,8 A 0.5,0.5 0 0 1 1.5,7.5 H 13.293 L 10.146,4.354 a 0.5006316,0.5006316 0 0 1 0.708,-0.708 l 4,4 a 0.5,0.5 0 0 1 0,0.708 l -4,4 A 0.5006316,0.5006316 0 0 1 10.146,11.646 L 13.293,8.5 H 1.5 A 0.5,0.5 0 0 1 1,8 Z"
+         id="path1488" /></g></g></svg>

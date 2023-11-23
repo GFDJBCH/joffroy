@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="">
+    <title>Joffroy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title"
+          content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme"/>
+    <link rel="canonical" href="https://preview.keenthemes.com/metronic8"/>
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"/>
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+    <!--end::Fonts-->
+    <!--begin::Page Vendor Stylesheets(used by this page)-->
+    <link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--end::Page Vendor Stylesheets-->
+    <!--begin::Global Stylesheets Bundle(used by all pages)-->
+    <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--end::Global Stylesheets Bundle-->
+
+    <link rel="shortcut icon" href="assets/media/icono.svg"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/joffory.css">
+</head>
+<body id="kt_body"
+      class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed"
+      style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+<div class="d-flex flex-column flex-root">
+    <div class="page d-flex flex-row flex-column-fluid" style="background-color: #DEE0E4;">
+        <div id="kt_aside" class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside"
+             data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
+             data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
+             data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+            <div class="aside-logo flex-column-auto" id="kt_aside_logo">
+                <a href="index.html">
+                    <img alt="Logo" src="assets/media/logos/logo.svg" class="h-25px logo"/>
+                </a>
+                <div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle"
+                     data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
+                     data-kt-toggle-name="aside-minimize">
+                    <span class="svg-icon svg-icon-1 rotate-180">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none">
+									<path opacity="0.5"
+                                          d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z"
+                                          fill="black"/>
+									<path d="M8.2657 11.4343L12.45 7.25C12.8642 6.83579 12.8642 6.16421 12.45 5.75C12.0358 5.33579 11.3642 5.33579 10.95 5.75L5.40712 11.2929C5.01659 11.6834 5.01659 12.3166 5.40712 12.7071L10.95 18.25C11.3642 18.6642 12.0358 18.6642 12.45 18.25C12.8642 17.8358 12.8642 17.1642 12.45 16.75L8.2657 12.5657C7.95328 12.2533 7.95328 11.7467 8.2657 11.4343Z"
+                                          fill="black"/>
+								</svg>
+							</span>
+                </div>
+            </div>
+            <div class="aside-menu flex-column-fluid">
+                <div class="hover-scroll-overlay-y" id="kt_aside_menu_wrapper" data-kt-scroll="true"
+                     data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto"
+                     data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer"
+                     data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="0">
+                    <div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
+                         id="#kt_aside_menu" data-kt-menu="true">
+                        <div class="menu-item">
+                            <div class="menu-content pb-2">
+                                <span class="menu-section text-white text-uppercase fs-8 ls-1" data-lang="menu_navigation"></span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link active" href="proveedores.html">
+                                <span class="menu-icon"><i class="fa-solid fa-building-user"></i></span>
+                                <span class="menu-title" data-lang="menu_supplier"></span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link bg-hover-joffroy-primary" href="facturacion.html">
+                                <span class="menu-icon"><i class="fa-solid fa-file-invoice-dollar"></i></span>
+                                <span class="menu-title" data-lang="menu_invoices"></span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link bg-hover-joffroy-primary" href="documentacion.html">
+                                <span class="menu-icon"><i class="fa-solid fa-file-arrow-up"></i></span>
+                                <span class="menu-title" data-lang="menu_pending"></span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link bg-hover-joffroy-primary" href="documentos.html">
+                                <span class="menu-icon"><i class="fa-solid fa-file-lines"></i></span>
+                                <span class="menu-title" data-lang="menu_document"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+            <div id="kt_header" style="" class="header align-items-stretch bg-joffroy-primary">
+                <!--begin::Container-->
+                <div class="container-fluid d-flex align-items-stretch justify-content-between">
+                    <div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+                        <div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
+                             id="kt_aside_mobile_toggle">
+                            <span class="svg-icon svg-icon-2x mt-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24" fill="none">
+											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
+                                                  fill="black"/>
+											<path opacity="0.3"
+                                                  d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z"
+                                                  fill="black"/>
+										</svg>
+									</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+                        <h5 class="m-0 text-white" data-lang="menu_main"></h5>
+                    </div>
+                    <!--begin::Wrapper-->
+                    <div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+                        <!--begin::Navbar-->
+                        <div class="d-flex align-items-stretch" id="kt_header_nav">
+                            <div class="header-menu align-items-stretch" data-kt-drawer="true"
+                                 data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, lg: false}"
+                                 data-kt-drawer-overlay="true"
+                                 data-kt-drawer-width="{default:'200px', '300px': '250px'}"
+                                 data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle"
+                                 data-kt-swapper="true" data-kt-swapper-mode="prepend"
+                                 data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}">
+                                <!--begin::Menu-->
+                                <div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-400 fw-bold my-5 my-lg-0 align-items-stretch"
+                                     id="#kt_header_menu" data-kt-menu="true">
+                                </div>
+                                <!--end::Menu-->
+                            </div>
+                        </div>
+                        <!--end::Navbar-->
+                        <!--begin::Topbar-->
+                        <div class="d-flex align-items-stretch flex-shrink-0">
+                            <!--begin::Toolbar wrapper-->
+                            <div class="d-flex align-items-stretch flex-shrink-0">
+                                <!--begin::User-->
+                                <div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+                                    <!--begin::Menu wrapper-->
+                                    <div class="cursor-pointer symbol symbol-30px symbol-md-40px d-flex" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+                                        <div class="me-2 text-white d-flex flex-column justify-content-center align-items-start">
+                                            <span id="spnNombreU" class="fw-bold"></span>
+                                            <span id="spnCorreoU" class="text-muted"></span>
+                                        </div>
+                                        <img src="assets/media/avatars/blank.png" alt="user"/>
+                                    </div>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px"
+                                         data-kt-menu="true">
+                                        <div class="menu-item px-5">
+                                            <a href="perfil.html" class="menu-link px-5" data-lang="option_profile"></a>
+                                        </div>
+                                        <div class="menu-item px-5">
+                                            <a href="sing-in.html" class="menu-link px-5" data-lang="option_logout"></a>
+                                        </div>
+                                    </div>
+                                    <!--end::Menu-->
+                                    <!--end::Menu wrapper-->
+                                </div>
+                            </div>
+                            <!--end::Toolbar wrapper-->
+                        </div>
+                        <!--end::Topbar-->
+                    </div>
+                    <!--end::Wrapper-->
+                </div>
+                <!--end::Container-->
+            </div>
+            <div class="container-fluid d-flex flex-column flex-column-fluid" id="kt_content">
+                <!--begin::Toolbar-->
+                <div class="toolbar" id="kt_toolbar">
+                    <!--begin::Container-->
+                    <div id="kt_toolbar_container" class="container-fluid d-flex flex-stack">
+                        <div data-kt-swapper="true" data-kt-swapper-mode="prepend"
+                             data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}"
+                             class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+                            <h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">
+                                <i class="bi bi-buildings me-2 fn-20px text-dark"></i>
+                                <span data-lang="page_title"></span>
+                            </h1>
+                        </div>
+                        <div class="d-flex align-items-center py-1">
+                            <div class="me-3 w-200px">
+                                <select id="sistema-lenguage" class="form-select form-select-sm">
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="w-200px bg-joffroy-primary form-control form-control-sm">
+                            <span class="svg-icon svg-icon-5 svg-icon-white me-1 mb-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="white" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                            <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                        </svg>
+                                    </span>
+                                <span id="sistema-fecha" class="text-white m-0"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::Container-->
+                </div>
+                <!--end::Toolbar-->
+                <!--begin::Post-->
+                <div class="post d-flex flex-column-fluid pt-5" id="kt_post">
+                    <!--begin::Container-->
+                    <div id="kt_content_container" class="container-fluid mx-0 px-0">
+                        <!--begin::Row-->
+                        <div class="row gy-5 g-xl-8">
+                            <!--begin::Col-->
+                            <div class="col-xl-12">
+                                <!--begin::Tables Widget 9-->
+                                <div class="card card-xl-stretch mb-5 mb-xl-8" id="blockSection">
+                                    <!--begin::Header-->
+                                    <div class="card-header border-0 pt-5">
+                                        <h3 class="card-title align-items-start flex-column">
+                                            <span class="card-label fw-bolder fs-3 mb-1" data-lang="menu_header"></span>
+                                            <span class="text-muted mt-1 fw-bold fs-7">
+                                                <span data-lang="menu_counter"></span>
+                                                : <strong id="mostrarCantidad">0</strong>
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <!--end::Header-->
+                                    <!--begin::Body-->
+                                    <div class="card-body py-3">
+                                        <div class="alert alert-dismissible bg-light-primary d-flex flex-column flex-sm-row p-5 mb-6 mt-6">
+                                            <span class="svg-icon svg-icon-2hx svg-icon-primary me-4 mb-5 mb-sm-0">
+                                                <i class="bi bi-exclamation-triangle-fill fs-1"></i>
+                                            </span>
+                                            <div class="d-flex flex-column pe-0 pe-sm-10">
+                                                <h4 class="fw-bold" data-lang="alert_information"></h4>
+                                                <p class="m-0" data-lang="data_info_label"></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-6"></div>
+                                            <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+                                                <input type="text" id="filtro-proveedor" class="form-control w-300px">
+                                            </div>
+                                        </div>
+
+                                        <div class="table-responsive">
+                                            <!--begin::Table-->
+                                            <table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
+                                                <!--begin::Table head-->
+                                                <thead>
+                                                <tr class="fw-bolder">
+                                                    <th class="w-25px">
+                                                    </th>
+                                                    <th class="min-w-150px" data-lang="table_header_column_name"></th>
+                                                    <th class="min-w-140px" data-lang="table_header_column_country"></th>
+                                                    <th class="min-w-120px" data-lang="table_header_column_documentation"></th>
+                                                    <th class="min-w-100px text-end" data-lang="table_header_column_actions"></th>
+                                                </tr>
+                                                </thead>
+                                                <!--end::Table head-->
+                                                <!--begin::Table body-->
+                                                <tbody id="proveedoresTbody">
+                                                    <tr>
+                                                    <td colspan="5" class="text-center p-6">
+                                                        <img src="assets/media/icono2.svg" height="50" class="mb-3" alt="Not found">
+                                                        <br>
+                                                        <span data-lang="table_body_not_found"></span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                                <!--end::Table body-->
+                                            </table>
+                                            <!--end::Table-->
+                                        </div>
+                                        <!--end::Table container-->
+                                    </div>
+                                    <!--begin::Body-->
+                                </div>
+                                <!--end::Tables Widget 9-->
+                            </div>
+                            <!--end::Col-->
+                        </div>
+                        <!--end::Row-->
+
+                    </div>
+                    <!--end::Container-->
+                </div>
+                <!--end::Post-->
+            </div>
+            <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+                <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <div class="text-dark order-2 order-md-1">
+                        <span class="text-muted fw-bold me-1">2023 ©</span>
+                        <a href="https://www.joffroy.com/" target="_blank" class="text-gray-800 text-hover-primary">Joffroy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" id="mdl-proveedor-info">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header bg-joffroy-primary">
+                <h5 class="modal-title text-white" data-lang="modal_header"></h5>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid" id="body-proveedor-info"></div>
+                <div class="container-fluid">
+                    <h2 class="fw-bolder my-3" data-lang="modal_subtitle"></h2>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="other_activities"></label>
+                        <div class="col-lg-8 fv-plugins-icon-container">
+                            <div class="row fv-row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="radio" id="extra-info-actividad-si" value="1" name="extra-info-actividad" disabled>
+                                    <label class="form-check-label" for="extra-info-actividad-si" data-lang="yes"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="radio" id="extra-info-actividad-no" value="2" name="extra-info-actividad" disabled>
+                                    <label class="form-check-label" for="extra-info-actividad-no" data-lang="not"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="type_company"></label>
+                        <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="extra-info-industrial" name="extra-info-tipo" value="1" disabled>
+                                    <label class="form-check-label opacity-100" for="extra-info-industrial" data-lang="industrial_manufacturing"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="extra-info-comercio" name="extra-info-tipo" value="2" disabled>
+                                    <label class="form-check-label opacity-100" for="extra-info-comercio" data-lang="commerce"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="extra-info-Servicios" name="extra-info-tipo" value="3" disabled>
+                                    <label class="form-check-label opacity-100" for="extra-info-Servicios" data-lang="services"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="sector"></label>
+                        <div class="col-lg-4 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-aeroespacial" name="check-info-sector" value="1" disabled>
+                                    <label class="form-check-label" for="check-info-aeroespacial" data-lang="aerospace"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-alimentos" name="check-info-sector" value="2" disabled>
+                                    <label class="form-check-label" for="check-info-alimentos" data-lang="food"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-comercio" name="check-info-sector" value="3" disabled>
+                                    <label class="form-check-label" for="check-info-comercio" data-lang="commerce_distribution"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-ejecutivo" name="check-info-sector" value="4" disabled>
+                                    <label class="form-check-label" for="check-info-ejecutivo" data-lang="executive_electronic"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-Energia" name="check-info-sector" value="5" disabled>
+                                    <label class="form-check-label" for="check-info-Energia" data-lang="energy"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-mineria" name="check-info-sector" value="6" disabled>
+                                    <label class="form-check-label" for="check-info-mineria" data-lang="mining"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-papel" name="check-info-sector" value="7" disabled>
+                                    <label class="form-check-label" for="check-info-papel" data-lang="paper_cardboard"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-quimica" name="check-info-sector" value="8" disabled>
+                                    <label class="form-check-label" for="check-info-quimica" data-lang="chemistry"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-servicios" name="check-info-sector" value="9" disabled>
+                                    <label class="form-check-label" for="check-info-servicios" data-lang="services"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-agricultura" name="check-info-sector" value="10" disabled>
+                                    <label class="form-check-label" for="check-info-agricultura" data-lang="agriculture_livestock"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-automotriz" name="check-info-sector" value="11" disabled>
+                                    <label class="form-check-label" for="check-info-automotriz" data-lang="automotive"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-construccion" name="check-info-sector" value="12" disabled>
+                                    <label class="form-check-label" for="check-info-construccion" data-lang="construction"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-electrodomesticos" name="check-info-sector" value="13" disabled>
+                                    <label class="form-check-label" for="check-info-electrodomesticos" data-lang="appliances"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-madera" name="check-info-sector" value="14" disabled>
+                                    <label class="form-check-label" for="check-info-madera" data-lang="wood_industry"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-software" name="check-info-sector" value="15" disabled>
+                                    <label class="form-check-label" for="check-info-software">
+                                        IT & Software
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-muebles" name="check-info-sector" value="16" disabled>
+                                    <label class="form-check-label" for="check-info-muebles" data-lang="furniture"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-plasticos" name="check-info-sector" value="17" disabled>
+                                    <label class="form-check-label" for="check-info-plasticos" data-lang="plastics_rubber"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-salud" name="check-info-sector" value="18" disabled>
+                                    <label class="form-check-label" for="check-info-salud" data-lang="health"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-info-maquinaria" name="check-info-sector" value="19" disabled>
+                                    <label class="form-check-label" for="check-info-maquinaria" data-lang="machinery"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="email"></label>
+                        <div class="col-lg-6 fv-row fv-plugins-icon-container">
+                            <input type="email" id="extra-info-correo" name="extra-info-correo" class="form-control bg-transparent form-control-plaintext" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="payphone"></label>
+                        <div class="col-lg-6 fv-row fv-plugins-icon-container">
+                            <input type="tel" id="extra-info-telefono" name="extra-info-telefono" data-inputmask="'mask': '(999) 999-9999'" class="form-control bg-transparent form-control-plaintext" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="website"></label>
+                        <div class="col-lg-6 fv-row fv-plugins-icon-container">
+                            <input type="url" id="extra-info-web" name="extra-info-web" class="form-control bg-transparent form-control-plaintext" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="client_sector"></label>
+                        <div class="col-lg-4 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-aeroespacial" name="check-cliente-sector" value="1" disabled>
+                                    <label class="form-check-label" for="check-cliente-aeroespacial" data-lang="aerospace"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-alimentos" name="check-cliente-sector" value="2" disabled>
+                                    <label class="form-check-label" for="check-cliente-alimentos" data-lang="food"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-comercio" name="check-cliente-sector" value="3" disabled>
+                                    <label class="form-check-label" for="check-cliente-comercio" data-lang="commerce_distribution"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-ejecutivo" name="check-cliente-sector" value="4" disabled>
+                                    <label class="form-check-label" for="check-cliente-ejecutivo" data-lang="executive_electronic"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-Energia" name="check-cliente-sector" value="5" disabled>
+                                    <label class="form-check-label" for="check-cliente-Energia" data-lang="energy"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-mineria" name="check-cliente-sector" value="6" disabled>
+                                    <label class="form-check-label" for="check-cliente-mineria" data-lang="mining"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-papel" name="check-cliente-sector" value="7" disabled>
+                                    <label class="form-check-label" for="check-cliente-papel" data-lang="paper_cardboard"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-quimica" name="check-cliente-sector" value="8" disabled>
+                                    <label class="form-check-label" for="check-cliente-quimica" data-lang="chemistry"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-servicios" name="check-cliente-sector" value="9" disabled>
+                                    <label class="form-check-label" for="check-cliente-servicios" data-lang="services"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-agricultura" name="check-cliente-sector" value="10" disabled>
+                                    <label class="form-check-label" for="check-cliente-agricultura" data-lang="agriculture_livestock"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-automotriz" name="check-cliente-sector" value="11" disabled>
+                                    <label class="form-check-label" for="check-cliente-automotriz" data-lang="automotive"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-construccion" name="check-cliente-sector" value="12" disabled>
+                                    <label class="form-check-label" for="check-cliente-construccion" data-lang="construction"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-electrodomesticos" name="check-cliente-sector" value="13" disabled>
+                                    <label class="form-check-label" for="check-cliente-electrodomesticos" data-lang="appliances"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-madera" name="check-cliente-sector" value="14" disabled>
+                                    <label class="form-check-label" for="check-cliente-madera" data-lang="wood_industry"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-software" name="check-cliente-sector" value="15" disabled>
+                                    <label class="form-check-label" for="check-cliente-software">
+                                        IT & Software
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-muebles" name="check-cliente-sector" value="16" disabled>
+                                    <label class="form-check-label" for="check-cliente-muebles" data-lang="furniture"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-plasticos" name="check-cliente-sector" value="17" disabled>
+                                    <label class="form-check-label" for="check-cliente-plasticos" data-lang="plastics_rubber"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-salud" name="check-cliente-sector" value="18" disabled>
+                                    <label class="form-check-label" for="check-cliente-salud" data-lang="health"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="check-cliente-maquinaria" name="check-cliente-sector" value="19" disabled>
+                                    <label class="form-check-label" for="check-cliente-maquinaria" data-lang="machinery"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="year_inception"></label>
+                        <div class="col-lg-3 fv-row fv-plugins-icon-container">
+                            <input type="number" id="extra-info-operaciones" name="extra-info-operaciones" class="form-control bg-transparent form-control-plaintext" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="capacity"></label>
+                        <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="radio" id="extra-info-capacidad-si" value="1" name="extra-info-capacidad" disabled>
+                                    <label class="form-check-label" for="extra-info-capacidad-si" data-lang="yes"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="radio" id="extra-info-capacidad-no" value="2" name="extra-info-capacidad" disabled>
+                                    <label class="form-check-label" for="extra-info-capacidad-no" data-lang="not"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="number_employees"></label>
+                        <div class="col-lg-3 fv-row fv-plugins-icon-container">
+                            <input type="number" id="extra-info-empleados" name="extra-info-empleados" class="form-control bg-transparent form-control-plaintext" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <label class="col-lg-4 col-form-label fw-bold fs-6" data-lang="language"></label>
+                        <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                            <div class="row">
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="extra-info-espanol" value="1" name="extra-info-idioma" disabled>
+                                    <label class="form-check-label" for="extra-info-espanol" data-lang="english"></label>
+                                </div>
+                                <div class="form-check form-check-custom m-2">
+                                    <input class="form-check-input" type="checkbox" id="extra-info-ingles" value="2" name="extra-info-idioma" disabled>
+                                    <label class="form-check-label" for="extra-info-ingles" data-lang="spanish"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-light" data-bs-dismiss="modal" data-lang="btn_close"></button>
+                <a href="" id="btnLinkProveedor" class="btn btn-sm btn-joffroy-warning" data-lang="btn_edit"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+    <span class="svg-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)"
+                  fill="black"/>
+            <path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z"
+                  fill="black"/>
+        </svg>
+    </span>
+</div>
+<script>var hostUrl = "assets/";</script>
+<script src="assets/plugins/global/plugins.bundle.js"></script>
+<script src="assets/js/scripts.bundle.js"></script>
+<script src="assets/js/function/initialization.js"></script>
+<script src="assets/js/function/users.js"></script>
+<!--<script src="assets/js/function/dates.js"></script>-->
+
+<script>
+	//printFecha();
+</script>
+<script src="assets/js/traductor/proveedores-translate.js"></script>
+<script src="assets/js/pages/proveedores.js"></script>
+</body>
+</html>
